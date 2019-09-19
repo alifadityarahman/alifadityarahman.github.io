@@ -1,0 +1,12 @@
+Alif Aditya Rahman
+182410101075
+Perancangan Web kelas C
+
+Assalamu'alaikum
+Welcome!
+ini adalah WEB HTML saya, yaitu index.html dan submited.html . 
+Pada kedua page file html tsb, saya menggunakan fitur tambahan Javascript, yaitu anti klik kanan dan anti drag n drop agar lebih interaktif dan menjaga copyright halaman html saya.
+
+Terima Kasih
+
+Wassalamu'alaikum
