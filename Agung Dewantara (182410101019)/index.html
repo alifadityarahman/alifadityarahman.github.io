@@ -1,48 +1,72 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>FORM BIODATA</title>
-    <font face="Arial Black">
-    <font color="white"
-    <link href="logoLaos.jpg" rel='shortcut icon'>
-    <link rel="stylesheet" type="text/css" href="stylelogin.css">
-    <center><h1 style="background-color:#8ed0d1"><u><font color="#053075"><marquee>WEBSITE PENDAFTARAN ANGGOTA UKM LaOS (Linux and Open Soure) FASILKOM UNEJ - 2019</marquee></font></u></h1></center>
-  </head>
-
-  <body background="ai.png">
-    <font face="Arial Black">
-    <form method="POST">
-      <p>Nama Lengkap :</p><input type="text" placeholder="Nama Lengkap" class="formulir">
-      <p>Nama  Panggilan :</p><input type="text" placeholder="Nama Panggilan" class="formulir">
-      <p>Jenis Kelamin :</p><font class="a">. <input type="radio" name="Jenis Kelamin" value="Laki-Laki""><font color="#6e7080" class="formulir">Laki-Laki <font class="a">
-                            <font class="a"> <input type="radio" name="Jenis Kelamin" value="Perempuan"><font color="#6e7080" class="formulir">Perempuan <font class="a">
-      <p>NIM :</p><input type="number" placeholder="NIM" class="formulir">
-      <p>Tempat Lahir :</p><input type="text" placeholder="Tempat Lahir" class="formulir">
-      <p>Tanggal Lahir :</p><input type="date" name="ttl" class="formulir">
-      <p>No Telepon :</p><input type="number" placeholder="No Telepon" class="formulir">
-      <p>E-mail :</p><input type="email" placeholder="E-mail"class="formulir">
-      <p>Alamat Asal :</p><input type="text" placeholder="Alamat Asal" class="formulir">
-      <p>Alamat di Jember :</p><input type="text" placeholder="Alamat di Jember"class="formulir">
-      <p>Prodi :</p><input list="Prodi" placeholder="Prodi" class="formulir">
-            <datalist id="Prodi">
-              <option value="Sistem Informasi">
-              <option value="Teknologi Informasi">
-              <option value="Informatika">
-            </datalist>
-      <p>Bidang Minat</p><input list="Bidang Minat" placeholder="Bidang Minat" class="formulir">
-            <datalist id="Bidang Minat">
-              <option value="Sistem Operasi">
-              <option value="Jaringan">
-              <option value="Multimedia">
-              <option value="Pemrograman">
-            </datalist>
-      <p>Apakah Anda Bersedia jika dipindah ke lain bidang :</p>
-      <input type="checkbox"><font class="formulir">Bersedia di Bidang Lain
-      <input type="checkbox">Tidak Bersedia<br><br>
-            <textarea name="Alasan" rows="8" cols="50" placeholder="Alasan Mendaftar" class="formulir"></textarea><br><br>
-            <a href="Terimakasih.html"><button type="button" name="button" class="tombol_selesai" >Selesai</button></a>
-      </form>
-
-  </body>
+<html>
+<head>
+	<title>LOGIN</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="AWAL.PNG">
+<div class="heading">
+	<h1><font color="#d1af36"; margin-left="1000px"><b>WEBSITE PENDAFTARAN ANGGOTA UKM LaOS (Linux and Open Source)</b>&nbsp; &nbsp; &nbsp;<br></h1>
+</div>
+<div class="logo">
+	<img src="logoLaos.jpg" width="90" height="90">
+</div>
+<br><br>
+<div class="kotak_login">
+  <form>
+		<center><img src="user.png" class="gambarlogin"></center>
+		<p class="tulisan_login">Sebelum melanjutkan pendaftaran<br>silahkan login dahulu</p>
+    <center><input type="email" placeholder="email atau username" class="form_login"></center><br><br>
+    <center><input type="password" placeholder="Password" class="form_login"></center><br><br>
+    <center><a href="terimakasih.html"><button type="button" name="login" class="tombol_login">LOGIN</button></a></center>
+  </form>
+</div>
+<div class="kotak_daftar">
+	<form>
+		<center><img src="gambardaftar.png" class="gambardaftar"></center>
+		<p class="tulisan_login">Silahkan Isi Data Diri Anda</p>
+		<label>Nama Lengkap :</label>
+		<input type="text" placeholder="Nama Lengkap" class="form_login">
+		<label>Nama Panggilan :</label>
+		<input type="text" placeholder="Nama Panggilan" class="form_login"><br>
+		<label>Jenis Kelamin :</label><br>
+		<input type="radio" name="Jenis Kelamin" value="Laki-Laki"><font  class="form_login"><b>Laki-Laki</b>
+		<input type="radio" name="Jenis Kelamin" value="Perempuan"><font  class="form_login"><b>Perempuan</b><br>
+		<label>NIM :</label><br>
+		<input type="number" placeholder="NIM" class="form_login">
+		<label>Tempat Lahir :</label>
+		<input type="text" placeholder="Tempat Lahir" class="form_login">
+		<label>Tanggal Lahir :</label>
+		<input type="date" name="ttl" class="form_login"><br>
+		<label>No Telepon :</label>
+		<input type="number" placeholder="No Telepon" class="form_login">
+		<label>Email :</label>
+		<input type="email" placeholder="E-mail"class="form_login">
+		<label>Alamat Asal : </label>
+		<input type="text" placeholder="Alamat Asal" class="form_login">
+		<label>Alamat di Jember :</label>
+		<input type="text" placeholder="Alamat di Jember"class="form_login"><br>
+		<label>Prodi :</label>
+		<input list="Prodi" placeholder="Prodi" class="form_login">
+			<datalist id="Prodi">
+				<option value="Sistem Informasi">
+				<option value="Teknologi Informasi">
+				<option value="Informatika">
+			</datalist>
+		<label>Bidang Minat :</label>
+		<input list="Bidang Minat" placeholder="Bidang Minat" class="form_login">
+					<datalist id="Bidang Minat">
+						<option value="Sistem Operasi">
+						<option value="Jaringan">
+						<option value="Multimedia">
+						<option value="Pemrograman">
+					</datalist>
+		<label>Apakah Anda Bersedia jika dipindah ke lain bidang :</label><br><br>
+		<input type="checkbox"><font class="form_login"><b>Bersedia di Bidang Lain</b>
+		<input type="checkbox"><b>Tidak Bersedia</b></font><br><br>
+		<textarea name="Alasan" rows="8" cols="100" placeholder="Alasan Mendaftar" class="form_login"></textarea><br><br>
+		<center><a href="Terimakasih.html"><button type="button" name="daftar" class="tombol_login">DAFTAR</button> </a></center>
+</form>
+</div>
+</body>
 </html>
