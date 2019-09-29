@@ -1,0 +1,114 @@
+body {
+    background-color: #08072e;
+}
+
+.nav {
+    width: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+
+.logo1 {
+    text-align: center;
+}
+
+.heading {
+    font-size: 25pt;
+    width: auto;
+    text-align: center;
+    font-family: Colus;
+    color: yellow;
+}
+
+.logo2 {
+    text-align: center;
+}
+
+/* .logo1,
+.logo2 {
+    width: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+    position: relative;
+} */
+
+/* .heading img {
+    position: relative;
+    float: right;
+} */
+
+.textJalan {
+    font-family: Colus;
+    color: rgb(0, 238, 255);
+}
+
+.judul {
+    color: white;
+    font-family: Felix Titling;
+    text-align: center;
+}
+
+.inputan {
+    font-family: Montserrat SemiBold;
+    color: white;
+    font-size: 18pt;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+}
+
+.kotakInput1 {
+    border-radius: 8px;
+    border: 1px solid white;
+    width: 40%;
+    padding: 5px;
+    font-family: Montserrat SemiBold;
+    font-size: 12pt;
+    margin-bottom: 5px;
+}
+
+.kotakInput2 {
+    border-radius: 8px;
+    border: 1px solid white;
+    width: 19.1%;
+    padding: 5px;
+    font-family: Montserrat SemiBold;
+    font-size: 12pt;
+    margin-bottom: 5px;
+}
+
+.petunjuk {
+    border-radius: 100px;
+    border: 1px solid grey;
+    width: 4%;
+    padding: 5px;
+    font-family: Montserrat SemiBold;
+    font-size: 19pt;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: grey;
+    margin-left: 0%;
+}
+
+.info {
+    border-radius: 100px;
+    align-items: center;
+    border: 1px solid grey;
+    width: 20%;
+    padding: 5px;
+    font-family: Montserrat SemiBold;
+    font-size: 12pt;
+    cursor: pointer;
+    color: white;
+    background-color: grey;
+}
+
+.intro {
+    text-align: center;
+}
