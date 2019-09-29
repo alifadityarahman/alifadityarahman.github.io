@@ -7,10 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Form Pendaftaran MCA</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="JavaScript" href="main.js">
     <link href='logo.png' rel='shortcut icon'>
 </head>
 
 <body>
+    <!-- oncontextmenu="return false" -->
+    <!-- <body background="bg.png"></body> -->
     <div class="nav">
         <div class="logo1">
             <img src="logo.png" alt="Logo MCA" width="90" height="90">
@@ -33,24 +36,22 @@
                 ANDA!</font>
         </marquee>
     </div>
-    <hr width="100%" size="5" color="white">
+    <hr width="100%" size="4" color="white">
     <br>
     </font>
     <div class="judul">
         <h2>
             <font>FORM PENDAFTARAN</font>
         </h2>
-        <br>
         <font color="orange">*</font>
-        <font id="ketentuan"> Klik dan Baca Sebelum Melanjutkan <font color="orange">*
+        <font id="ketentuan"> Klik Kotak Di Bawah dan Bacalah Sebelum Melanjutkan <font color="orange">*
             </font>
     </div>
-    <br><br>
+    <br>
     <div class="intro">
         <button class="info"
             onclick="alert('Isilah Semua Data Di Bawah Ini, Khususnya Yang Diberi Tanda Bintang Warna Jingga, Dengan Baik dan Benar Sesuai Dengan Identitas (KTP/KK) Asli Milik Anda. Dan Pastikan Semua Data Yang Anda Masukkan Dapat Dipertanggung Jawabkan. (Dan Kami Akan Jamin Kerahasian Semua Data Milik Anda)');">
             <span>Ketentuan Umum</span></button>
-
         <button class="info"
             onclick="alert('Isilah Semua Data Di Bawah Ini Sesuai Dengan Petunjuk Yang Ada Pada Setiap Inputan Di Bawah. Baca Petunjuknya Terlebih Dahulu Agar Tidak Salah Memasukkan Data! (Kesalahan Input Data Bukan Tanggung Jawab Admin)');">
             <span>Petunjuk Pengisian</span></button>
@@ -75,52 +76,61 @@
             <span>!</span></button>
         <font id="nik">NIK<font COLOR="orange">*</font>
         </font>
-
         <br>
         <input type="number" name="nik" required="required" placeholder=" NIK" id="nik" class="kotakInput1">
         <br>
-        <input type="button" value="!" onclick="alert(' />
-        <br><br>
-        <font id=" gender">Jenis Kelamin<font color="orange">*
-        </font>
-        </font><br>
-        <font size="3"><input type="radio" name="gender" required="required" placeholder=" Jenis Kelamin" id="gender"
-                value="Laki-laki">Laki-laki
-        </font>
-        <font size="3"><input type="radio" name="gender" required="required" placeholder=" Jenis Kelamin" id="gender"
-                value="Perempuan">Perempuan
-        </font>
         <br>
-        <input type="button" value="Petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah Jenis Kelamin Anda, Sesuai Dengan KTP Asli Anda');" />
-        <br><br>
-        <font id="tempatLahir">Tempat Lahir<font color="orange">*</font>
+        <button class=" petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah Jenis Kelamin Anda, Sesuai Dengan KTP Asli Anda');">
+            <span>!</span></button>
+        <font id="gender">Jenis Kelamin<font color="orange">*
+            </font>
+        </font><br>
+        <div class="gender">
+            <form action="radio" class="kotakInput2">
+                <font size="3"><input type="radio" name="gender" required="required" placeholder=" Jenis Kelamin"
+                        id="gender" value="Laki-laki">Laki-laki
+                </font><br>
+                <font size="3"><input type="radio" name="gender" required="required" placeholder=" Jenis Kelamin"
+                        id="gender" value="Perempuan">Perempuan
+                </font>
+            </form>
+        </div>
+        <br>
+        <button class=" petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Tempat Lahir Anda, Sesuai Dengan KTP Asli Anda');">
+            <span>!</span></button>
+        <font id=" tempatLahir">Tempat Lahir<font color="orange">*</font>
         </font><br>
         <input type="text" name="tempatLahir" required="required" placeholder=" Tempat Lahir" id="tempatLahir" size=40
             class="kotakInput1">
-        <br>
-        <input type="button" value="Petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Tempat Lahir Anda, Sesuai Dengan KTP Asli Anda');" />
         <br><br>
+        <button class=" petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Tanggal Lahir Anda, Sesuai Dengan KTP Asli Anda');">
+            <span>!</span></button>
         <font id="tglLahir">Tanggal Lahir<font color="orange">*
             </font>
         </font>
         <br>
         <input type="date" name="tglLahir" required="required" placeholder=" Tanggal Lahir" id="tglLahir"
             class="kotakInput1">
-        <font color="#OD132B">_</font><br>
-        <input type="button" value="Petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Tanggal Lahir Anda, Sesuai Dengan KTP Asli Anda');" />
         <br><br>
+        <button class=" petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Alamat Lengkap, Kode Pos, Kecamatan, dan Kabupaten Asal Anda Dan Juga Pilih Provinsinya Sesuai Dengan KTP/KK Asli Anda');">
+            <span>!</span></button>
         <font id="alamat">
             Alamat<font color="orange">*</font>
         </font>
         <br>
-        <input type="text" name="alamat" required="required" placeholder=" Alamat Lengkap" size="102" id="alamat" /><br>
-        <input type="number" name="kodePos" required="required" placeholder=" Kode Pos" id="kodePos" />
-        <input type="text" name="alamatKec" required="required" placeholder=" Kecamatan" id="alamatKec" />
-        <input type="text" name="alamatKab" required="required" placeholder=" Kabupaten" id="alamatKab" />
-        <select name="alamatProv" size="1" required="required" id="alamatProv">
+        <input type="text" name="alamat" required="required" placeholder=" Alamat Lengkap" size="102" id="alamat"
+            class="kotakInput1"><br>
+        <input type="number" name="kodePos" required="required" placeholder=" Kode Pos" id="kodePos"
+            class="kotakInput2">
+        <input type="text" name="alamatKec" required="required" placeholder=" Kecamatan" id="alamatKec"
+            class="kotakInput2"><br>
+        <input type="text" name="alamatKab" required="required" placeholder=" Kabupaten" id="alamatKab"
+            class="kotakInput2">
+        <select name="alamatProv" size="1" required="required" id="alamatProv" class="kotakInput2">
             <option disabled>~Pilih Provinsi~</option>
             <option value="Aceh">Nanggroe Aceh Darussalam </option>
             <option value="Sumatera Utara">Sumatera Utara</option>
@@ -159,82 +169,85 @@
             <option value="Maluku Utara">Maluku Utara</option>
             <option value="Papua Barat">Papua Barat</option>
             <option value="Papua">Papua</option>
-        </select><br>
-        <input type="button" value="Petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Alamat Lengkap, Kode Pos, Kecamatan, dan Kabupaten Asal Anda Dan Juga Pilih Provinsinya Sesuai Dengan KTP/KK Asli Anda');" />
+        </select>
         <br><br>
+        <button class=" petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah Bahasa Pemrograman Yang Benar-benar Anda Kuasai, Karena Nanti Akan Diadakan Test Sesuai Pilihan Anda Ini');">
+            <span>!</span></button>
         <font id="bhsProgDikuasai">Bahasa Pemrograman Yang Dikuasai<font color="orange">*
             </font>
         </font>
-        <font color="#OD132B">_</font>
-        <input type="button" value="Petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah Bahasa Pemrograman Yang Benar-benar Anda Kuasai, Karena Nanti Akan Diadakan Test Sesuai Pilihan Anda Ini');" />
         <br>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="Java">Java
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="Python">Python
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="C">C
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="C">C++
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="C">C#
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="HTML">HTML
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="CSS">CSS
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="JavaScript">JavaScript
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="PHP">PHP
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="SQL">SQL
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="XML">XML
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="WML">WML
-        </font><br>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="RUBY">RUBY
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="DELPHI">DELPHI
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="COBOL">COBOL
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="Visual Basic">Visual
-            Basic
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="PERL">PERL
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="Objective-C">Objective-C
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="TypeScript">TypeScript
-        </font>
-        <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
-                placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="Swift">Swift
-        </font>
-        <br><br>
+        <form action="checkbox" class="kotakInput1">
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="Java">Java
+            </font>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="Python">Python
+            </font>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="C">C
+            </font>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="C">C++
+            </font>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="C">C#
+            </font>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="HTML">HTML
+            </font>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="CSS">CSS
+            </font><br>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="JavaScript">JavaScript
+            </font>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="PHP">PHP
+            </font>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="SQL">SQL
+            </font>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="XML">XML
+            </font>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="WML">WML
+            </font><br>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="RUBY">RUBY
+            </font>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="DELPHI">DELPHI
+            </font>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="COBOL">COBOL
+            </font>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="Visual Basic">Visual
+                Basic
+            </font><br>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="PERL">PERL
+            </font>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="Objective-C">Objective-C
+            </font>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="TypeScript">TypeScript
+            </font>
+            <font size="3"><input type="checkbox" name="bhsProgDikuasai" required="required"
+                    placeholder=" Bahasa Pemrograman Yang Dikuasai" id="bhsProgDikuasai" value="Swift">Swift
+            </font>
+        </form>
+        <br>
+        <button class=" petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah Agama Sesuai Dengan KTP Asli Anda');">
+            <span>!</span></button>
         <font id="agama">Agama<font color="orange">*</font>
         </font><br>
-        <select name="agama" size="1" required="required" id="agama">
+        <select name="agama" size="1" required="required" id="agama" class="kotakInput1">
             <option disabled>~Pilih Agama~
             </option>
             <option value="Islam">Islam</option>
@@ -246,92 +259,96 @@
             <option value="Kong Hu Chu">Kong Hu Chu</option>
             <option value="Lainnya">Lainya</option>
         </select>
-        <font color="#OD132B">_</font>
-        <input type="button" value="Petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah Agama Sesuai Dengan KTP Asli Anda');" />
         <br><br>
+        <button class=" petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Username Baru Anda, Karakter Yang Boleh Dipakai adalah Huruf, Underscore(_), dan Angka');">
+            <span>!</span></button>
         <font id="username">Username<font color="orange">*
             </font>
         </font><br>
-        <input type="text" name="username" required="required" placeholder=" Username" size="40" id="username" />
-        <font color="#OD132B">_</font>
-        <input type="button" value="Petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Username Baru Anda, Karakter Yang Boleh Dipakai adalah Huruf, Underscore(_), dan Angka');" />
+        <input type="text" name="username" required="required" placeholder=" Username" size="40" id="username"
+            class="kotakInput1">
         <br><br>
+        <button class=" petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah E-mail Aktif Milik Anda, Agar Dapat Diverifikasi, dan Akun Anda Dapat Diaktifkan');">
+            <span>!</span></button>
         <font id="email">E-mail<font color="orange">*
             </font>
         </font><br>
-        <input type="email" name="email" required="required" placeholder=" E-mail" size="40" id="email" />
-        <font color="#OD132B">_</font>
-        <input type="button" value="Petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah E-mail Aktif Milik Anda, Agar Dapat Diverifikasi, dan Akun Anda Dapat Diaktifkan');" />
+        <input type="email" name="email" required="required" placeholder=" E-mail" size="40" id="email"
+            class="kotakInput1">
         <br><br>
+        <button class=" petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Password Baru Anda, Minimal 8 Karakter, Harus Kombinasi Angka, Huruf, Kapital, dan Simbol');">
+            <span>!</span></button>
         <font id="password">Password<font color="orange">*
             </font>
         </font><br>
-        <input type="password" name="password" required="required" placeholder=" Password" size="40" id="password" />
-        <font color="#OD132B">_</font>
-        <input type="button" value="Petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Password Baru Anda, Minimal 8 Karakter, Harus Kombinasi Angka, Huruf, Kapital, dan Simbol');" />
+        <input type="password" name="password" required="required" placeholder=" Password" size="40" id="password"
+            class="kotakInput1">
         <br><br>
+        <button class=" petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Kembali Password Baru Anda, Harus Sama Seperti Di Atas');">
+            <span>!</span></button>
         <font id="password">Ulangi Password<font color="orange">*
             </font>
         </font><br>
         <input type="password" name="password" required="required" placeholder=" Ulangi Password" size="40"
-            id="password" />
-        <font color="#OD132B">_</font>
-        <input type="button" value="Petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Kembali Password Baru Anda, Harus Sama Seperti Di Atas');" />
+            id="password" class="kotakInput1">
         <br><br>
+        <button class=" petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah File Foto Diri Asli Terbaru Milik Anda, Ukuran 4x6, Foto Resmi, Background Warna Merah, Lalu Silakan Upload');">
+            <span>!</span></button>
         <font id="fotoDiri">Upload Foto Diri<font color="orange">*
             </font>
         </font><br>
-        <form method="post" action="" enctype="multipart/form-data">
-            <input type="file" name="fotoDiri" required="required" placeholder=" Upload Foto" size="100"
-                id="fotoDiri" />
-        </form><input type="button" value="Petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah File Foto Diri Asli Terbaru Milik Anda, Ukuran 4x6, Foto Resmi, Background Warna Merah, Lalu Silakan Upload');" />
-        <br><br>
+        <form method="post" action="" enctype="multipart/form-data" class="kotakInput1">
+            <input type="file" name="fotoDiri" required="required" placeholder=" Upload Foto" size="100" id="fotoDiri">
+        </form>
+        <br>
+        <button class=" petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah File Scan KTP Asli Terbaru Milik Anda, Lalu Silakan Upload');">
+            <span>!</span></button>
         <font id="scanKtp">Upload Scan KTP<font color="orange">*
             </font>
         </font>
         <br>
-        <form method="post" action="" enctype="multipart/form-data">
+        <form method="post" action="" enctype="multipart/form-data" class="kotakInput1">
             <input type="file" name="scanKtp" required="required" placeholder=" Upload Scan KTP" size="100"
-                id="scanKtp" />
+                id="scanKtp">
         </form>
-        <input type="button" value="Petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah File Scan KTP Asli Terbaru Milik Anda, Lalu Silakan Upload');" />
-        <br><br>
+        <br>
+        <button class=" petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- 1 = Tidak Loyal  2 = Kurang Loyal   3 = Cukup Loyak   4 = Loyal   ------- 5 = Sangat Loyal');">
+            <span>!</span></button>
         <font id="levLoyal">Lavel Loyalitas Anda<font color="orange">*
             </font>
         </font><br>
         <input type="range" name="levLoyal" min="0" max="5" required="required"
             placeholder=" Berapa Level Loyalitas Anda" id="levLoyal" />
-        <font color="#OD132B">___</font>
-        <input type="button" value="Petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- 1 = Tidak Loyal  2 = Kurang Loyal   3 = Cukup Loyak   4 = Loyal   ------- 5 = Sangat Loyal');" />
         <br>
         <font size="3">0<font color="#OD132B"> _.</font>1<font color="#OD132B">
                 _.</font>2<font color="#OD132B">
                 _.</font>3<font color="#OD132B">_.</font>4<font color="#OD132B">
                 _.</font>5
         </font>
-        <br><br>
+        <br>
+        <button class=" petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah Warna Favorit Anda, Boleh Diabaikan');">
+            <span>!</span></button>
         <font id="warnaFav">Warna Favorit Anda</font><br>
-        <input type="color" name="warnaFav" placeholder=" Warna Favorit Anda" size="40" id="warnaFav">
-        <font color="#OD132B">_________.</font>
-        <input type="button" value="Petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah Warna Favorit Anda, Boleh Diabaikan');" />
+        <input type="color" name="warnaFav" placeholder=" Warna Favorit Anda" size="40" id="warnaFav"
+            class="kotakInput1">
         <br><br>
+        <button class=" petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Alasan Kuat dan Mendasar, Mengapa Anda Sangat Ingin dan Butuh Untuk Bergabung Dengan MCA');">
+            <span>!</span></button>
         <font id="motivasi">Motivasi Bergabung<font color="orange">*
             </font>
         </font>
-        <font color="#OD132B">_____________________..</font>
-        <input type="button" value="Petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Alasan Kuat dan Mendasar, Mengapa Anda Sangat Ingin dan Butuh Untuk Bergabung Dengan MCA');" />
         <br>
-        <textarea name="motivasi" id="motivasi" cols="80" rows="8" placeholder=" Motivasi Bergabung"></textarea>
+        <textarea name="motivasi" id="motivasi" cols="80" rows="8" placeholder=" Motivasi Bergabung"
+            class="kotakInput1"></textarea>
         <br><br>
         <font size="3">Pernyataan:<font color="orange">*
             </font>
