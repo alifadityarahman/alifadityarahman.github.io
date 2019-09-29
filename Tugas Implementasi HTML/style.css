@@ -1,5 +1,74 @@
-body {
-  font-family:
+.background {
+  background-size: 100%;
+}
+
+.nav {
+  width: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto 15%;
+
+  align-items: center;
+}
+
+.logoMT {
+  text-align: left;
+  margin-left: 15%;
+}
+
+.navbar {
+  font-family: Montserrat SemiBold;
+  font-size: 10pt;
+  text-align: right;
+  height: 10pt;
+}
+
+.link,
+.link:link,
+.link:active,
+.link:visited {
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: right;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.link:hover {
+  background: #16A085;
+}
+
+.akun {
+  text-align: left;
+}
+
+.konten {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+}
+
+.judul {
+  font-family: Montserrat SemiBold;
+  font-size: 30pt;
+  margin-left: 4.25%;
+}
+
+.keterangan {
+  font-family: Montserrat SemiBold;
+  text-align: justify;
+  font-size: 12pt;
+  margin-left: 4.25%;
+  margin-right: 4.25%;
+}
+
+.telusuri {
+  margin-left: 3.7%;
+}
+
+.slide {
+  text-align: center;
 }
 
 .logo {
@@ -8,38 +77,39 @@ body {
   float: left;
 }
 
-.tombol_login{
+.tombol_login {
   float: right;
   margin-right: 60px;
   margin-top: 20px;
 }
 
-.navigasi{
+.navigasi {
   color: white;
   float: left;
   margin-left: 460px;
   margin-top: 30px;
   font-size: 12px;
-  }
-
-.left-arrow{
-  float: left;
-  margin-top: 255px;
-  margin-left:-1180px;
 }
 
-.right-arrow{
+.left-arrow {
+  float: left;
+  margin-top: 255px;
+  margin-left: -1180px;
+}
+
+.right-arrow {
   margin-top: 255px;
   float: right;
   margin-right: -135px;
 }
-.deskripsi_masjid{
+
+.deskripsi_masjid {
   float: left;
   margin-top: 340px;
   margin-left: -168px;
 }
 
-.scroll{
+.scroll {
   float: right;
   margin-top: 520px;
   margin-right: -85px;
