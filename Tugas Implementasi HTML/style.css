@@ -1,0 +1,46 @@
+body {
+  font-family:
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 50px;
+  float: left;
+}
+
+.tombol_login{
+  float: right;
+  margin-right: 60px;
+  margin-top: 20px;
+}
+
+.navigasi{
+  color: white;
+  float: left;
+  margin-left: 460px;
+  margin-top: 30px;
+  font-size: 12px;
+  }
+
+.left-arrow{
+  float: left;
+  margin-top: 255px;
+  margin-left:-1180px;
+}
+
+.right-arrow{
+  margin-top: 255px;
+  float: right;
+  margin-right: -135px;
+}
+.deskripsi_masjid{
+  float: left;
+  margin-top: 340px;
+  margin-left: -168px;
+}
+
+.scroll{
+  float: right;
+  margin-top: 520px;
+  margin-right: -85px;
+}
