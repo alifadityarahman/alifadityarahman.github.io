@@ -96,6 +96,10 @@ body {
     margin-left: 0%;
 }
 
+.gender {
+    margin-left: 45px;
+}
+
 .info {
     border-radius: 100px;
     align-items: center;
