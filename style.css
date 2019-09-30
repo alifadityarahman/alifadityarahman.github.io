@@ -1,0 +1,32 @@
+.nav {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+    width: auto;
+    /* margin: 100 100; */
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.kotakinput {
+    border-radius: 8px;
+    border: 1px solid white;
+    width: 40%;
+    padding: 5px;
+    font-family: Montserrat SemiBold;
+    font-size: 12pt;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.kotakinput1 {
+    border-radius: 8px;
+    border: 1px solid white;
+    width: 60%;
+    padding: 5px;
+    font-family: Montserrat SemiBold;
+    font-size: 12pt;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
