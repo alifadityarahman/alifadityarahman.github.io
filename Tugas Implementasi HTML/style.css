@@ -7,7 +7,6 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto 15%;
-
   align-items: center;
 }
 
@@ -38,37 +37,79 @@
 
 .link:hover {
   background: #16A085;
+  border-radius: 18px;
 }
 
 .akun {
   text-align: left;
+  margin-top: 7.5%;
 }
 
 .konten {
   background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 30px;
+  border-radius: 33px;
 }
 
 .judul {
   font-family: Montserrat SemiBold;
   font-size: 30pt;
   margin-left: 4.25%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.isi {
+  width: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto 35%;
 }
 
 .keterangan {
   font-family: Montserrat SemiBold;
   text-align: justify;
   font-size: 12pt;
-  margin-left: 4.25%;
+  margin-left: 6.75%;
   margin-right: 4.25%;
 }
 
 .telusuri {
-  margin-left: 3.7%;
+  text-align: center;
+  margin-top: 8%;
 }
 
-.slide {
+.navslide {
   text-align: center;
+  width: auto;
+  margin-top: 0.9%;
+  margin-left: 4.25%;
+  display: grid;
+  grid-template-columns: 2.25% 2.25% 2.25% 2.25% 2.25%;
+}
+
+.slide1 {
+  text-align: center;
+  border-radius: 40px;
+}
+
+.slide2 {
+  text-align: center;
+  border-radius: 40px;
+}
+
+.slide3 {
+  text-align: center;
+  border-radius: 40px;
+}
+
+.slide4 {
+  text-align: center;
+  border-radius: 40px;
+}
+
+.slide5 {
+  text-align: center;
+  border-radius: 40px;
 }
 
 .logo {
