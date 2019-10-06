@@ -184,4 +184,6 @@
 
 .kolom_input{
   box-sizing : border-box;
-  
+  float: center;
+	width: 90%;
+
