@@ -185,5 +185,8 @@
 .kolom_input{
   box-sizing : border-box;
   float: center;
-	width: 90%;
+  width: 90%;
+  padding: 10px;
+  font-size: 11pt;
+
 
