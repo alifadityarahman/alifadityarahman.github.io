@@ -155,3 +155,40 @@
   margin-top: 520px;
   margin-right: -85px;
 }
+
+.background_transparant {
+  width: 1393px;
+  height: 668px;
+  margin-left: -10px;
+  margin-top: -10px;
+  background-color: rgba(255,255,255,0.5);
+}
+
+.logo_login{
+  width: 200px;
+  margin-left: 570px;
+  margin-top: 50px;
+}
+
+.kotak_login{
+  align: center;
+  float: right;
+  width: 30%;
+  background-color: white;
+  margin left: -100px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 40px;
+}
+
+.kolom_input{
+  box-sizing : border-box;
+  float: center;
+  width: 90%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 2px;
+}
+
+
