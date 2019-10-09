@@ -191,7 +191,7 @@ img.loginLogo {
 
 .kotak_login {
   font-family: Montserrat SemiBold;
-  align: center;
+  text-align: center;
   float: left;
   width: 30%;
   background-color: white;
@@ -252,12 +252,12 @@ img.loginLogo {
 } */
 
 .kotak_daftar {
-  align: center;
+  text-align: center;
   float: left;
   margin-left: 330px;
   width: 45%;
   background-color: white;
-  margin left: -100px;
+  margin-left: -100px;
   margin-top: 20px;
   text-align: center;
   padding: 30px;
