@@ -1,8 +1,19 @@
 .background {
   background-size: 100%;
+  position: relative;
+  z-index: 1;
+  top: 0px;
 }
 
-.nav {
+
+p {
+  position: absolute;
+  top: 20px;
+  z-index: 2;
+  color: #fff;
+}
+
+*/ .nav {
   width: auto;
   margin: 0 auto;
   display: grid;
@@ -161,16 +172,16 @@
   height: 668px;
   margin-left: -10px;
   margin-top: -10px;
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
-.logo_login{
+.logo_login {
   width: 200px;
   margin-left: 570px;
   margin-top: 50px;
 }
 
-.kotak_login{
+.kotak_login {
   align: center;
   float: left;
   width: 30%;
@@ -182,8 +193,8 @@
   border-radius: 40px;
 }
 
-.kolom_input{
-  box-sizing : border-box;
+.kolom_input {
+  box-sizing: border-box;
   float: center;
   width: 90%;
   padding: 10px;
@@ -191,7 +202,7 @@
   margin-bottom: 2px;
 }
 
-.kotak_daftar{
+.kotak_daftar {
   align: center;
   float: left;
   margin-left: 330px;
@@ -204,13 +215,13 @@
   border-radius: 40px;
 }
 
-.medsos{
+.medsos {
   float: left;
 }
 
-.kolom_input1{
+.kolom_input1 {
   float: right;
-  box-sizing : border-box;
+  box-sizing: border-box;
   width: 50%;
   padding: 10px;
   font-size: 11pt;
