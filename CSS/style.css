@@ -211,28 +211,38 @@ img.loginLogo {
   margin-right: -10px
 }
 
-.emailNav {
+.inpLogNav {
   width: auto;
-  margin: 0 auto;
+  margin: 0 0;
   display: grid;
-  grid-template-columns: 15% auto;
+  grid-template-columns: 20% auto;
   align-items: center;
 }
 
-.email {
+.nameLog {
   float: left;
+  text-align: left;
   margin-top: 5px;
   margin-left: 0px;
   margin-right: 0px;
 }
 
-.emailInp {
+.inputLog {
   width: 93%;
   padding: 10px;
   font-family: Montserrat SemiBold;
   font-size: 13pt;
   border-radius: 25px;
 }
+
+.ketLog {
+  margin-top: -18px;
+  margin-left: 105px;
+  font-size: 9pt;
+  text-align: left;
+}
+
+.passwordNav {}
 
 "width: 250px; height: 25px; border-radius: 20px; margin-right: -80px; margin-left: -30px;"
 
