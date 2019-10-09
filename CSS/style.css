@@ -244,8 +244,11 @@ img.loginLogo {
 
 .ingatSaya {
   float: left;
-  margin-top: 5px;
-  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.cbIngatSaya {
+  float: left;
 }
 
 .kotak_daftar {
