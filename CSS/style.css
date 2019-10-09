@@ -1,19 +1,22 @@
 .background {
   background-size: 100%;
-  position: relative;
-  z-index: 1;
-  top: 0px;
+  display: block;
 }
 
+/* .back {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  size: 100%;
+} */
 
-p {
-  position: absolute;
-  top: 20px;
-  z-index: 2;
-  color: #fff;
-}
+/* img.back {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
 
-*/ .nav {
+.nav {
   width: auto;
   margin: 0 auto;
   display: grid;
