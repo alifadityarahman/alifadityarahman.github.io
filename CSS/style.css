@@ -1,20 +1,8 @@
-.background {
+/* Untuk setting backgound utama */
+body.background {
   background-size: 100%;
   display: block;
 }
-
-/* .back {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  size: 100%;
-} */
-
-/* img.back {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
 
 .nav {
   width: auto;
@@ -171,39 +159,91 @@
 }
 
 .background_transparant {
-  width: 1393px;
-  height: 668px;
+  width: 100%;
+  height: 100%;
   margin-left: -10px;
   margin-top: -10px;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.logo_login {
-  width: 200px;
-  margin-left: 570px;
-  margin-top: 50px;
+.loginNav {
+  width: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+}
+
+.loginLogo {
+  text-align: center;
+
+}
+
+img.loginLogo {
+  font-size: 1%;
 }
 
 .kotak_login {
+  font-family: Montserrat SemiBold;
+  text-align: center;
+}
+
+
+.kotak_login {
+  font-family: Montserrat SemiBold;
   align: center;
   float: left;
   width: 30%;
   background-color: white;
   margin-left: 430px;
+  margin-right: 430px;
   margin-top: 20px;
   text-align: center;
   padding: 30px;
   border-radius: 40px;
 }
 
-.kolom_input {
+.cancel {
+  float: right;
+  width: 30px;
+  padding: 10px;
+  margin-top: -70px;
+  margin-right: -10px
+}
+
+.emailNav {
+  width: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 15% auto;
+  align-items: center;
+}
+
+.email {
+  float: left;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.emailInp {
+  width: 93%;
+  padding: 10px;
+  font-family: Montserrat SemiBold;
+  font-size: 13pt;
+  border-radius: 25px;
+}
+
+"width: 250px; height: 25px; border-radius: 20px; margin-right: -80px; margin-left: -30px;"
+
+/* .kolom_input {
   box-sizing: border-box;
   float: center;
   width: 90%;
   padding: 10px;
   font-size: 11pt;
   margin-bottom: 2px;
-}
+} */
 
 .kotak_daftar {
   align: center;

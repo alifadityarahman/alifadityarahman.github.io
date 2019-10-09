@@ -7,28 +7,51 @@
   <link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
 
-<body background="IMG/background-login.png">
+<body background="IMG/masjid-istiqlal.png" class="background">
+
   <div class="background_transparant">
-    <img src="IMG/logo.png" class="logo_login"><br>
+    <div class="loginNav">
+      <div></div>
+      <div class="loginLogo">
+        <img src="IMG/logo.png" class="logo_login"><br>
+      </div>
+      <div></div>
+    </div>
     <div class="kotak_login">
-      <h1>MASUK</h1><a href="index.html"><img src="IMG/cancel.png"
-          style="float: right; width: 30px; padding: 10px; margin-top: -70px; margin-right: -10px;"></a>
+      <h1>MASUK</h1>
+      <div class="cancel">
+        <a href="index.html"><img src="IMG/cancel.png"></a>
+      </div>
       <h4>Selamat Datang!<br>Untuk Melenjutkan perjalanan, Silahkan Masuk ke Akun Anda</h4>
       <div class="kolom_input">
-        <label style="float: left; margin-top: 5px; margin-left: -10px;">Email</label>
-        <input type="email" name="email" placeholder="contoh:abcdefg@gmail.com"
-          style="width: 250px; height: 25px; border-radius: 20px; margin-right: -80px; margin-left: -30px;"><br><br>
-        <h6 style="margin-top: -15px; margin-left: 50px;">Diisi dengan Email anda yang telah terdaftar.</h6>
-        <label style="float: left; margin-top: 5px; margin-left: -10px;">Password</label>
-        <input type="password" name="password" placeholder="contoh: xxxxxxxx"
-          style="width: 250px; height: 25px; border-radius: 20px; margin-right: -80px; margin-left: -50px;"><br>
-        <h6 style="margin-top: 2px; margin-left: 10px;">Diisi dengan Password akun anda.</h6>
+        <div class="emailNav">
+          <div class="email">
+            <label>Email</label>
+          </div>
+          <div class="emailInp">
+            <input type="email" name="emailInp" class="emailInp" placeholder="contoh:abcdefg@gmail.com">
+          </div>
+        </div>
+        <p>Diisi dengan Email anda yang telah terdaftar.</p>
+        <!-- style="margin-top: -15px; margin-left: 50px;" -->
+        <label>Password</label>
+        <!-- style="float: left; margin-top: 5px; margin-left: -10px;" -->
+        <input type="password" name="password" placeholder="contoh: xxxxxxxx"><br>
+        <!-- style="width: 250px; height: 25px; border-radius: 20px; margin-right: -80px; margin-left: -50px;" -->
+        <h6>Diisi dengan Password akun anda.</h6>
+        <!-- style="margin-top: 2px; margin-left: 10px;" -->
       </div>
-      <input type="radio" style="float: left; margin-top: 5px; margin-left: 40px;"><label
-        style="float: left; margin-left: 0px;">Ingat Saya</label> <label
-        style="float: right; margin-right: 40px;"><u>Lupa Password?<u></label><br>
-      <a href="index.html"><img src="IMG/tombol-masuk.png" style="width: 150px; margin-top: 30px;"></a><br>
-      <label>Belum Punya Akun? <a href="daftar.html">Daftar Disini</a></label>
+      <input type="radio">
+      <!-- style="float: left; margin-top: 5px; margin-left: 40px;" -->
+      <label>Ingat Saya</label>
+      <!-- style="float: left; margin-left: 0px;" -->
+      <label>
+        <!-- style="float: right; margin-right: 40px;" -->
+        <u>Lupa
+          Password?<u></label><br>
+      <a href="index.html"><img src="IMG/tombol-masuk.png" </a> <!-- style="width: 150px; margin-top: 30px;"> -->
+        <br>
+        <label>Belum Punya Akun? <a href="daftar.html">Daftar Disini</a></label>
     </div>
   </div>
 </body>
