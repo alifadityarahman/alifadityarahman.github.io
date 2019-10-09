@@ -245,11 +245,23 @@ img.loginLogo {
 .ingatSaya {
   float: left;
   margin-top: 10px;
+  text-align: left;
 }
 
-.cbIngatSaya {
+.cbingatSaya {
   float: left;
+  margin-top: 5px;
 }
+
+.buttonGrid {
+  width: auto;
+  margin: 0 0;
+  display: grid;
+  grid-template-columns: 10% auto auto;
+  align-items: center;
+}
+
+/*-- style="float: right; margin-right: 40px;"*/
 
 .kotak_daftar {
   text-align: center;
