@@ -242,23 +242,29 @@ img.loginLogo {
   text-align: left;
 }
 
-.ingatSaya {
-  float: left;
-  margin-top: 10px;
-  text-align: left;
-}
-
-.cbingatSaya {
-  float: left;
-  margin-top: 5px;
-}
-
 .buttonGrid {
   width: auto;
   margin: 0 0;
   display: grid;
   grid-template-columns: 10% auto auto;
   align-items: center;
+}
+
+.ingatSaya {
+  float: left;
+  text-align: left;
+  align-self: auto;
+}
+
+.cbingatSaya {
+  float: left;
+  text-align: left;
+}
+
+.lupaPassword {
+  text-align: right;
+  float: right;
+  margin-right: 10%;
 }
 
 /*-- style="float: right; margin-right: 40px;"*/
@@ -280,11 +286,11 @@ img.loginLogo {
   float: left;
 }
 
-.kolom_input1 {
+/* .kolom_input1 {
   float: right;
   box-sizing: border-box;
   width: 50%;
   padding: 10px;
   font-size: 11pt;
   margin-bottom: 2px;
-}
+} */
