@@ -242,6 +242,12 @@ img.loginLogo {
   text-align: left;
 }
 
+.ingatSaya {
+  float: left;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+
 .kotak_daftar {
   text-align: center;
   float: left;
