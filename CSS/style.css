@@ -264,7 +264,8 @@ img.loginLogo {
 .lupaPassword {
   text-align: right;
   float: right;
-  margin-right: 10%;
+  /* margin-right: 5%; */
+  padding: 10px;
 }
 
 /*-- style="float: right; margin-right: 40px;"*/
