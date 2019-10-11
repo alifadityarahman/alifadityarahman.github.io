@@ -330,11 +330,11 @@ img.loginLogo {
   float: left;
 }
 
-/* .kolom_input1 {
+.kolom_input1 {
   float: right;
   box-sizing: border-box;
   width: 50%;
   padding: 10px;
   font-size: 11pt;
   margin-bottom: 2px;
-} */
+}
