@@ -176,12 +176,9 @@ body.background {
 
 .loginLogo {
   text-align: center;
-
 }
 
 .titleNav {
-  /* width: auto; */
-  /* margin: 0 0; */
   display: grid;
   grid-template-columns: auto 10%;
   align-items: center;
@@ -189,11 +186,9 @@ body.background {
 
 .title {
   font-size: 30pt;
-  /* margin: 0 0; */
   margin-left: 20px;
   margin-top: 0;
   margin-bottom: 0;
-
 }
 
 .cancel {
@@ -201,7 +196,7 @@ body.background {
 }
 
 .bodyWelcome {
-  font-size: 15pt;
+  font-size: 14pt;
   margin-top: 40px;
   margin-bottom: 30px;
 }
@@ -214,7 +209,6 @@ img.loginLogo {
   font-family: Montserrat SemiBold;
   text-align: center;
 }
-
 
 .kotak_login {
   font-family: Montserrat SemiBold;
@@ -282,14 +276,8 @@ img.loginLogo {
   cursor: pointer;
   background: #fff;
   margin: 0 0;
-  /* border: 1px solid #888; */
-  /* padding: 1px; */
   height: 20px;
   width: 20px;
-
-  /* float: left;
-  text-align: left;
-  margin: auto auto; */
 }
 
 .lupaPassword {
