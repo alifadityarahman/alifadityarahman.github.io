@@ -351,6 +351,7 @@ body.background {
   width: 175px;
   background-color: white;
   border: white;
+  cursor: pointer;
 }
 
 .kolom_input1 {
