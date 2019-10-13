@@ -160,15 +160,15 @@ body.background {
 
 .backgroundTransparant {
   width: 1250px;
-  height: 668px;
+  height: 700px;
   margin-top: -10px;
-  margin-right: -100px;
+  /* margin-right: -100px; */
   background-color: rgba(255, 255, 255, 0.6);
 }
 
 .loginNav {
   width: auto;
-  margin: 0 auto;
+  margin: auto auto;
   display: grid;
   grid-template-columns: auto auto auto;
   align-items: center;
@@ -177,7 +177,7 @@ body.background {
 .loginLogo {
   text-align: center;
   height: 60px;
-  margin-right: 20px;
+  /* margin-right: 10px; */
 }
 
 .titleNav {
@@ -188,7 +188,7 @@ body.background {
 
 .title {
   font-size: 27pt;
-  margin-left: 22px;
+  margin-left: 17px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -214,8 +214,8 @@ img.loginLogo {
   float: left;
   width: 30%;
   background-color: white;
-  margin-left: 430px;
-  margin-right: 430px;
+  margin-left: 400px;
+  /* margin-right: 40px; */
   margin-top: 20px;
   text-align: center;
   padding: 30px;
