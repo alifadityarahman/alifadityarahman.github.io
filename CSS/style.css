@@ -158,7 +158,7 @@ body.background {
   margin-right: -85px;
 }
 
-.backgroundTransparant {
+.backgroundTransparantLog {
   width: 1263px;
   height: 608px;
   margin-top: -10px;
@@ -366,6 +366,14 @@ body.background {
   text-align: center;
   padding: 30px;
   border-radius: 40px;
+}
+
+.backgroundTransparantDaf {
+  width: 1263px;
+  height: 640px;
+  margin-top: -10px;
+  margin-left: -8px;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .ketDaftar {
