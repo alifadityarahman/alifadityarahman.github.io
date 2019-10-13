@@ -403,4 +403,5 @@ body.background {
   width: 175px;
   background-color: white;
   border: white;
+  cursor: pointer;
 }
