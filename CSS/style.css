@@ -367,3 +367,10 @@ body.background {
   padding: 30px;
   border-radius: 40px;
 }
+
+.ketDaftar {
+  margin-top: -6px;
+  margin-left: 155px;
+  font-size: 9pt;
+  text-align: left;
+}
