@@ -158,7 +158,7 @@ body.background {
   margin-right: -85px;
 }
 
-.background_transparant {
+.backgroundTransparant {
   width: 1393px;
   height: 668px;
   margin-top: -10px;
@@ -208,12 +208,7 @@ img.loginLogo {
   font-size: 1%;
 }
 
-.kotak_login {
-  font-family: Montserrat SemiBold;
-  text-align: center;
-}
-
-.kotak_login {
+.kotakLogin {
   font-family: Montserrat SemiBold;
   text-align: center;
   float: left;
