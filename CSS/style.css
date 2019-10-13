@@ -345,6 +345,14 @@ body.background {
   margin: 0 0 10px 12px;
 }
 
+.masukButton {
+  border-radius: 30px;
+  height: 68px;
+  width: 175px;
+  background-color: white;
+  border: white;
+}
+
 .kolom_input1 {
   float: right;
   box-sizing: border-box;
