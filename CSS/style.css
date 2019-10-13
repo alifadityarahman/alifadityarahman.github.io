@@ -178,7 +178,6 @@ body.background {
   text-align: center;
   height: 60px;
   margin-top: 8px;
-  /* margin-right: 10px; */
 }
 
 .titleNav {
@@ -335,6 +334,8 @@ body.background {
 
 .medsos {
   float: left;
+  width: 150px;
+  margin-bottom: 8px;
 }
 
 .kolom_input1 {
