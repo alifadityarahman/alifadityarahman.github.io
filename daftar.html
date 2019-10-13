@@ -1,38 +1,65 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>daftar</title>
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
-  </head>
-  <body background="IMG/background-login.png">
-    <div class="background_transparant">
-      <img src="IMG/logo.png" class="logo_login"><br>
-      <div class="kotak_daftar">
-        <h1>DAFTAR</h1><a href="index.html"><img src="IMG/cancel.png" style="float: right; width: 30px; padding: 10px; margin-top: -70px; margin-right: -10px;"></a>
-        <h4>Selamat Datang!<br>Untuk Mendaftarkan Akun Anda, Silakan Isi dan Lengkapi Data-Data Anda</h4>
-          <div class="medsos">
-            <h5>Pakai Media Sosial Anda</h5>
-            <a href=""><img src="IMG/google.png" style="width: 150px;"></a><br><br>
-            <a href=""><img src="IMG/facebook.png" style="width: 150px;"></a><br><br>
-            <a href=""><img src="IMG/twitter.png" style="width: 150px;"></a>
-            <div style="width:1px; height:215px; background-color:black; margin-left: 240px; margin-top: -220px;"></div>
-          </div>
-          <div class="kolom_input1">
-            <label style="float: left; margin-top: 10px; margin-left: -70px;">Username</label>
-            <input type="text" name="username" placeholder="contoh:abcdefg123" style="width: 250px; height: 25px; border-radius: 20px; margin-right: -10px; margin-top: 5px;"><br><br>
-            <h6 style="margin-top: -15px; margin-left: -30px;">Karakter yang diperbolehkan hanya ( huruf . _ )</h6>
-            <label style="float: left; margin-top: -5px; margin-left: -70px;">Email</label>
-            <input type="email" name="email" placeholder="contoh: abcdefg@gmail.com" style="width: 250px; height: 25px; border-radius: 20px; margin-right: -10px; margin-top: -400px;"><br>
-            <h6 style="margin-top: 2px; margin-left: -120px;">Masukkan Email Aktif Anda</h6>
-            <label style="float: left; margin-top: 5px; margin-left: -70px;">Password</label>
-            <input type="password" name="password" placeholder="contoh : xxxxxxxx" style="width: 250px; height: 25px; border-radius: 20px; margin-right: -10px;"><br>
-            <h6 style="margin-top: 2px; margin-left: -40px;">Masukkan Password Baru Anda, Min 8 Karakter</h6>
-            <input type="radio" style="float: left;margin-left: -70px;"><label style="float: left; margin-left: -50px;">Ingat Saya</label><br><br>
-            <a href="login.html"><img src="IMG/tombol-daftar.png" style="width: 150px; margin-left: -300px;" ></a><br>
-          </div>
-        </div>
 
+<head>
+  <meta charset="utf-8">
+  <title>daftar</title>
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+
+<body background="IMG/masjid-istiqlal.png">
+  <div class="backgroundTransparant">
+    <div class="loginNav">
+      <div></div>
+      <div class="loginLogo">
+        <a href="index.html"> <img src="IMG/logo.png" class="loginLogo"></a><br>
       </div>
-  </body>
+      <div></div>
+    </div>
+    <div class="kotakDaftar">
+      <div class="titleNav">
+        <div class="title">
+          <p class="title">DAFTAR</p>
+        </div class="cancel">
+        <a href="index.html"><img height="40px" src="IMG/cancel.png"></a>
+      </div>
+      <div class="bodyWelcome">
+        <p class="bodyWelcome">Selamat Datang!<br>Untuk Mendaftarkan Akun Anda, Silakan Isi dan Lengkapilah Data Berikut
+        </p>
+      </div>
+      <div class="medsos">
+        <p class="bodyWelcome">Pakai Media Sosial Anda</p>
+        <div class="medsos">
+          <a href=""><img class="medsos" src="IMG/google.png"></a>
+        </div>
+        <div class="medsos">
+          <a href=""><img class="medsos" src="IMG/facebook.png"></a>
+        </div>
+        <div class="medsos">
+          <a href=""><img class="medsos" src="IMG/twitter.png"></a>
+        </div>
+        <div style="width:1px; height:215px; background-color:black; margin-left: 240px; margin-top: -220px;"></div>
+      </div>
+      <div class="kolom_input1">
+        <label style="float: left; margin-top: 10px; margin-left: -70px;">Username</label>
+        <input type="text" name="username" placeholder="contoh:abcdefg123"
+          style="width: 250px; height: 25px; border-radius: 20px; margin-right: -10px; margin-top: 5px;">
+        <h6 style="margin-top: -15px; margin-left: -30px;">Karakter yang diperbolehkan hanya ( huruf . _ )</h6>
+        <label style="float: left; margin-top: -5px; margin-left: -70px;">Email</label>
+        <input type="email" name="email" placeholder="contoh: abcdefg@gmail.com"
+          style="width: 250px; height: 25px; border-radius: 20px; margin-right: -10px; margin-top: -400px;"><br>
+        <h6 style="margin-top: 2px; margin-left: -120px;">Masukkan Email Aktif Anda</h6>
+        <label style="float: left; margin-top: 5px; margin-left: -70px;">Password</label>
+        <input type="password" name="password" placeholder="contoh : xxxxxxxx"
+          style="width: 250px; height: 25px; border-radius: 20px; margin-right: -10px;"><br>
+        <h6 style="margin-top: 2px; margin-left: -40px;">Masukkan Password Baru Anda, Min 8 Karakter</h6>
+        <input type="radio" style="float: left;margin-left: -70px;"><label
+          style="float: left; margin-left: -50px;">Ingat Saya</label><br><br>
+        <a href="login.html"><img src="IMG/tombol-daftar.png" style="width: 150px; margin-left: -300px;"></a><br>
+      </div>
+    </div>
+
+  </div>
+</body>
+
 </html>

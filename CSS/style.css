@@ -1,5 +1,7 @@
-.background {
+/* Untuk setting backgound utama */
+body.background {
   background-size: 100%;
+  display: block;
 }
 
 .nav {
@@ -156,63 +158,205 @@
   margin-right: -85px;
 }
 
-.background_transparant {
-  width: 1393px;
-  height: 668px;
-  margin-left: -10px;
+.backgroundTransparant {
+  width: 1263px;
+  height: 608px;
   margin-top: -10px;
-  background-color: rgba(255,255,255,0.6);
+  margin-left: -8px;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
-.logo_login{
-  width: 200px;
-  margin-left: 570px;
-  margin-top: 50px;
+.loginNav {
+  width: auto;
+  margin: auto auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
 }
 
-.kotak_login{
-  align: center;
+.loginLogo {
+  text-align: center;
+  height: 60px;
+  margin-top: 8px;
+}
+
+.titleNav {
+  display: grid;
+  grid-template-columns: auto 10%;
+  align-items: center;
+}
+
+.title {
+  font-size: 25pt;
+  margin-left: 5.5%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cancel {
+  margin-top: 5px;
+}
+
+.bodyWelcome {
+  text-align: center;
+  font-size: 12pt;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* img.loginLogo {
+  font-size: 1%;
+} */
+
+.kotakLogin {
+  font-family: Montserrat SemiBold;
+  text-align: center;
   float: left;
   width: 30%;
   background-color: white;
-  margin-left: 430px;
-  margin-top: 20px;
+  margin-left: 408px;
+  margin-top: 10px;
   text-align: center;
   padding: 30px;
   border-radius: 40px;
 }
 
-.kolom_input{
-  box-sizing : border-box;
-  float: center;
-  width: 90%;
-  padding: 10px;
-  font-size: 11pt;
-  margin-bottom: 2px;
+.inpLogNav {
+  width: auto;
+  margin: 0 0;
+  display: grid;
+  grid-template-columns: 20% auto;
+  align-items: center;
 }
 
-.kotak_daftar{
-  align: center;
+.nameLog {
+  float: left;
+  text-align: left;
+  font-size: 12pt;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.inputLog {
+  width: 93%;
+  padding: 10px;
+  font-family: Montserrat SemiBold;
+  font-size: 12pt;
+  border-radius: 25px;
+}
+
+.ketLog {
+  margin-top: -6px;
+  margin-left: 105px;
+  font-size: 9pt;
+  text-align: left;
+}
+
+.ketLogdtl {
+  margin: 0 0;
+}
+
+.buttonGrid {
+  width: auto;
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: 6% auto auto;
+  align-items: center;
+}
+
+.ingatSaya {
+  float: left;
+  font-size: 12pt;
+  margin-top: 3px;
+  text-align: left;
+  align-self: auto;
+  vertical-align: middle;
+}
+
+.cbingatSaya {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  background: #fff;
+  margin: 0 0;
+  height: 19px;
+  width: 19px;
+}
+
+.lupaPassword {
+  font-size: 12pt;
+  text-align: right;
+  float: right;
+  padding: 10px;
+  margin: 0 0;
+  width: auto;
+  cursor: pointer;
+}
+
+.masuk {
+  margin-top: 7px;
+}
+
+.daftarBaruNav {
+  margin: 0 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+.daftarBaru1 {
+  margin: 0 0;
+  font-size: 12pt;
+  text-align: right;
+  color: black;
+}
+
+.daftarBaru2 {
+  margin: 0 0 0 5px;
+  font-size: 12pt;
+  text-align: left;
+  color: black;
+}
+
+.kotak_daftar {
+  text-align: center;
   float: left;
   margin-left: 330px;
   width: 45%;
   background-color: white;
-  margin left: -100px;
+  margin-left: -100px;
   margin-top: 20px;
   text-align: center;
   padding: 30px;
   border-radius: 40px;
 }
 
-.medsos{
+.medsos {
   float: left;
+  width: 150px;
+  margin-bottom: 8px;
 }
 
-.kolom_input1{
+.kolom_input1 {
   float: right;
-  box-sizing : border-box;
+  box-sizing: border-box;
   width: 50%;
   padding: 10px;
-  font-size: 11pt;
+  font-size: 12pt;
   margin-bottom: 2px;
+}
+
+
+.kotakDaftar {
+  font-family: Montserrat SemiBold;
+  text-align: center;
+  float: left;
+  width: 50%;
+  background-color: white;
+  margin-left: 290px;
+  margin-top: 10px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 40px;
 }
