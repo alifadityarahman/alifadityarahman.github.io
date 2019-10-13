@@ -400,6 +400,6 @@ body.background {
   border-radius: 30px;
   height: 68px;
   width: 175px;
-  /* background-color: white; */
+  background-color: white;
   border: white;
 }
