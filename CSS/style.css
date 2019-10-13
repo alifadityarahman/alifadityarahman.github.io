@@ -374,3 +374,8 @@ body.background {
   font-size: 9pt;
   text-align: left;
 }
+
+.daftar {
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
