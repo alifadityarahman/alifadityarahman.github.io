@@ -159,10 +159,10 @@ body.background {
 }
 
 .backgroundTransparant {
-  width: 1393px;
+  width: 1250px;
   height: 668px;
   margin-top: -10px;
-  margin-right: -10px;
+  margin-right: -100px;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
