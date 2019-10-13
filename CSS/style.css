@@ -362,7 +362,6 @@ body.background {
   margin-bottom: 2px;
 }
 
-
 .kotakDaftar {
   font-family: Montserrat SemiBold;
   text-align: center;
@@ -395,4 +394,12 @@ body.background {
   margin-top: 20px;
   margin-bottom: -20px;
   margin-right: 105px;
+}
+
+.daftarButton {
+  border-radius: 30px;
+  height: 68px;
+  width: 175px;
+  /* background-color: white; */
+  border: white;
 }
