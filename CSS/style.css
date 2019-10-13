@@ -195,12 +195,12 @@ body.background {
 }
 
 .cancel {
-  float: right;
+  margin-top: 5px;
 }
 
 .bodyWelcome {
   text-align: center;
-  font-size: 13pt;
+  font-size: 12pt;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -216,7 +216,7 @@ body.background {
   width: 30%;
   background-color: white;
   margin-left: 408px;
-  margin-top: 8px;
+  margin-top: 10px;
   text-align: center;
   padding: 30px;
   border-radius: 40px;
@@ -233,6 +233,7 @@ body.background {
 .nameLog {
   float: left;
   text-align: left;
+  font-size: 12pt;
   margin-top: 5px;
   margin-left: 0px;
   margin-right: 0px;
@@ -242,7 +243,7 @@ body.background {
   width: 93%;
   padding: 10px;
   font-family: Montserrat SemiBold;
-  font-size: 13pt;
+  font-size: 12pt;
   border-radius: 25px;
 }
 
@@ -263,6 +264,8 @@ body.background {
 
 .ingatSaya {
   float: left;
+  font-size: 12pt;
+  margin-top: 3px;
   text-align: left;
   align-self: auto;
   vertical-align: middle;
@@ -274,11 +277,12 @@ body.background {
   cursor: pointer;
   background: #fff;
   margin: 0 0;
-  height: 20px;
-  width: 20px;
+  height: 19px;
+  width: 19px;
 }
 
 .lupaPassword {
+  font-size: 12pt;
   text-align: right;
   float: right;
   padding: 10px;
@@ -300,14 +304,14 @@ body.background {
 
 .daftarBaru1 {
   margin: 0 0;
-  font-size: 13pt;
+  font-size: 12pt;
   text-align: right;
   color: black;
 }
 
 .daftarBaru2 {
   margin: 0 0 0 5px;
-  font-size: 13pt;
+  font-size: 12pt;
   text-align: left;
   color: black;
 }
@@ -334,6 +338,6 @@ body.background {
   box-sizing: border-box;
   width: 50%;
   padding: 10px;
-  font-size: 11pt;
+  font-size: 12pt;
   margin-bottom: 2px;
 }
