@@ -417,10 +417,10 @@ body.background {
   margin-left: -9px;
 }
 
-.user_profile
-  background-color: white;
+.user_profile {
+	background-color: white;
 	float: right;
-  margin-top: -25px;
+	margin-top: -25px;
 	margin-right: -80px;
 	text-decoration: none;
 	border-radius: 20px;
