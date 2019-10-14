@@ -420,7 +420,7 @@ body.background {
 .user_profile {
 	background-color: white;
 	float: right;
-	margin-top: -25px;
+	margin-top: -28px;
 	margin-right: -80px;
 	text-decoration: none;
 	border-radius: 20px;
@@ -432,4 +432,5 @@ body.background {
 .navigasi2 {
   float: right;
   padding: 10px 100px 0px 0px;
+  margin-right: 50px;
 }
