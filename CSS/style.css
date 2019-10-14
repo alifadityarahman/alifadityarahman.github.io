@@ -406,6 +406,7 @@ body.background {
   cursor: pointer;
 }
 
+/*untuk navigasi rekomendasi*/
 .navbar2 {
   padding: 10px;
   background-color: #143D16;
@@ -414,4 +415,16 @@ body.background {
   position: fixed;
   margin-top: -10px;
   margin-left: -9px;
+}
+
+.user_profile
+  background-color: white;
+	float: right;
+  margin-top: -25px;
+	margin-right: -80px;
+	text-decoration: none;
+	border-radius: 20px;
+	padding: 5px 5px 5px 5px;
+  color: #143D16;
+  font-size: 15px;
 }
