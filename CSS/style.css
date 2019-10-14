@@ -428,3 +428,8 @@ body.background {
 	color: #143D16;
 	font-size: 15px;
 }
+
+.navigasi2 {
+  float: right;
+  padding: 10px 100px 0px 0px;
+}
