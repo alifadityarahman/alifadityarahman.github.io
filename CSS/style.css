@@ -434,3 +434,7 @@ body.background {
   padding: 10px 100px 0px 0px;
   margin-right: 50px;
 }
+
+.peta{
+  grid-template-columns: auto auto auto auto auto 15px;
+}
