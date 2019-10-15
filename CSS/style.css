@@ -115,7 +115,7 @@ body.background {
 }
 
 .logo {
-  margin-top: 20px;
+  margin-top: 5px;
   margin-left: 50px;
   float: left;
 }
@@ -159,8 +159,8 @@ body.background {
 }
 
 .backgroundTransparantLog {
-  width: 1263px;
-  height: 608px;
+  width: 1393px;
+  height: 668px;
   margin-top: -10px;
   margin-left: -8px;
   background-color: rgba(255, 255, 255, 0.6);
@@ -377,8 +377,8 @@ body.background {
 }
 
 .backgroundTransparantDaf {
-  width: 1263px;
-  height: 640px;
+  width: 1393px;
+  height: 668px;
   margin-top: -10px;
   margin-left: -8px;
   background-color: rgba(255, 255, 255, 0.6);
@@ -404,4 +404,39 @@ body.background {
   background-color: white;
   border: white;
   cursor: pointer;
+}
+
+/*untuk navigasi rekomendasi*/
+.navbar2 {
+  padding: 10px;
+  background-color: #143D16;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  margin-top: -10px;
+  margin-left: -9px;
+}
+
+.user_profile {
+	background-color: white;
+	float: right;
+	margin-top: -28px;
+	margin-right: -80px;
+	text-decoration: none;
+	border-radius: 20px;
+	padding: 5px 5px 5px 5px;
+	color: #143D16;
+	font-size: 15px;
+}
+
+.navigasi2 {
+  float: right;
+  padding: 10px 100px 0px 0px;
+  margin-right: 50px;
+}
+
+.peta{
+  display: grid;
+  grid-template-columns: 20% 20% 5% 1% 5%;
+  grid-gap: 100px;
 }
