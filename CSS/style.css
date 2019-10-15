@@ -436,5 +436,7 @@ body.background {
 }
 
 .peta{
-  grid-template-columns: auto auto auto auto auto 15px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
 }
