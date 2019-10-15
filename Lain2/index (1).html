@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form >
+		<input type="text" name="user" id="user" placeholder="username" value="" required>
+	<!-- 	<input type="text" name="pass" id="pass" required pattern=""> -->
+		<!-- <button onclick="print()">submit</button> -->
+		<input type="submit" name="button" onclick="pindah()">
+	</form>
+
+	
+	<script type="text/javascript">
+		// pindah();
+		function print() {
+			document.write(5 + 6);
+		}
+		function pindah(){
+			var form = document.getElementById("user");
+			console.Log("test")
+			console.Log(form.value);
+			
+			// window.alert("Selamat datang" +  document.getElementsById("user").value);
+			// window.location.href = "pagelain.html";
+		}
+		
+	</script>
+
+	
+</body>
+</html>

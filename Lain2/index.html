@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+	<div class="modal-background" onclick="cFunction()" id="modal-background" style="display: none;">
+		<div class="putih-nya" id="putih">
+			<div class="x" id="x" onclick="cFunction()">x</div>
+		</div>
+	</div>
+
+	<div class="bungkus">
+	<div class="kotK1"></div>
+	<div class="kotK2"></div>
+	<div class="kotK3"></div>
+	<div class="kotK4"></div>
+	</div>
+	
+
+
+
+	<input type="" onkeyup="functionApa()">
+	<div class="navbar">
+		<a class="judul">Daunku.ID</a>		
+		<a class="menu-login" onclick="munculinLogin()">Login</a>
+		<input type="number" id="a" onkeyup="hitung()" placeholder="Isi Angka A">
+		<input type="number" id="b" onkeyup="hitung()">
+		<input type="number" id="z" onkeyup="hitung()">
+		<a class="menu">Pertama</a>
+		<a class="menu">Kedua</a>
+		<a class="menu">Ketiga</a>
+
+	</div>
+	<div class="background">
+		<img src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="walpapernya">
+		<p class="text-nya" id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis nobis dicta quidem quae fuga earum veritatis ut cum sint. Eveniet vitae voluptates maxime eum laboriosam distinctio modi? Quis, hic, aspernatur!</p>
+		<a onclick="hapusText()" class="menu-one">Hapus Teks</a>
+		<a onclick="lihatText()" class="menu-two">Lihat Teks</a>
+	</div>
+	<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae quas vero rerum nulla aliquam magnam dolor quam ipsum quos! Beatae magni veniam ipsum qui fugit, enim accusamus animi eum repudiandae?</span>
+	<span>Doloribus quia quas eveniet sed, sequi praesentium culpa consectetur. Officiis ex, doloribus dolores nemo expedita corporis consequatur, aliquid nam iure architecto possimus, iste qui laudantium error quasi assumenda facilis sint.</span>
+	<span>Dicta quam, eligendi beatae quas eos, excepturi a obcaecati architecto suscipit perspiciatis cupiditate, esse quos perferendis. Quam facere, ut sunt, dolores, harum aliquid reprehenderit accusantium aperiam minima ratione a ducimus.</span>
+	<span>Cumque nemo reprehenderit esse ullam velit libero quaerat, at reiciendis dolor nobis et, aliquam officia obcaecati ex natus quas amet. Minima officiis quod, dolores, sed id accusamus totam dolorem atque.</span>
+	<span>Nostrum animi eveniet fugit, dolor tempore adipisci architecto eos dolore consequuntur pariatur distinctio aliquam, aliquid voluptatum magnam, necessitatibus? Reprehenderit voluptatibus, repudiandae minima earum quam soluta molestias perspiciatis aspernatur esse eveniet?</span></p>
+
+<h3>KOPI</h3>
+<input type="number" id="a" placeholder="masukkan A">
+<input type="number" id="b" placeholder="masukkan B">
+<button onclick="hitung(a + b)"> hitung </button>
+<p id="hasil"></p>
+<br>
+<br>
+<br>S
+
+
+<button type="button" onclick="document.write(5 + 6)">Try it</button>
+
+
+
+<script type="text/javascript">
+	function hapusText(){
+		document.getElementById("text").style.color = "red";		
+	}
+
+	function hitung(){
+		var a = document.getElementById("a").value;
+		var b = document.getElementById("b").value;
+		document.getElementById("hasil").innerHTML = a + b;
+	}
+	// function munculinLogin(){
+	// 	document.getElementById("modal-background").style.display = "block";
+	// }
+	// function cFunction(){
+	// 	document.getElementById("modal-background").style.display= "none";
+	// }
+	// function functionApa(){
+
+	// }
+	// function hitung(){
+	// 	var x;
+	// 	x = (document.getElementById("a").value * document.getElementById("b").value)
+	// 	document.getElementById("z").value = x;
+
+	// }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script>
+	function convert() {
+		var a = document.getElementById("a").value;
+		var b = document.getElementById("b").value;
+		 var x;
+		 x = a * b;
+		 document.getElementById("c").value = x;
+	}
+	function modalFunction() {
+		document.getElementById("modal-background").style.display = "block";
+	}
+	function cFunction() {
+		document.getElementById("modal-background").style.display = "none";
+	}
+</script> -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript">
+		function hapusText(){
+			document.getElementById("text").style.display = "none";
+		}
+		function lihatText(){
+			document.getElementById("text").style.display = "block";
+		}
+		function modalLogin(){
+			document.getElementById("modal-background").style.display = "block";
+		}
+	</script>
