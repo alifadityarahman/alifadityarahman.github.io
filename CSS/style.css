@@ -1188,3 +1188,11 @@ ul {
   display: block;
   height: auto;
 }
+
+.gambar_rekomendasi{
+  weight: 100px;
+  height: 100px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
