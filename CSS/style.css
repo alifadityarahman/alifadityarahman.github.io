@@ -148,6 +148,79 @@ body {
   margin: 0 0 0 4.25%;
 }
 
+.ContentGrid {
+  background-color: #16A085;
+  border-radius: 20px;
+  width: auto;
+  margin: 0 30% 0 30%;
+  display: grid;
+  padding: 5px;
+  grid-template-columns: auto auto;
+  align-items: center;
+  text-align: center;
+}
+
+/* .AddContent {
+  color: white;
+  font-family: Aleo;
+}
+
+.SeeContent {
+  color: white;
+  font-family: Aleo;
+} */
+
+.AddContent,
+.AddContent:link,
+.AddContent:active,
+.AddContent:visited {
+  font-family: Aleo;
+  font-size: 12pt;
+  margin: 0 0 0 0;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  /* font-size: 10pt; */
+  /* font-weight: bold; */
+  /* text-align: right; */
+  /* color: white; */
+}
+
+.AddContent:hover {
+  background: white;
+  color: #16A085;
+  border-radius: 15px;
+}
+
+.SeeContent,
+.SeeContent:link,
+.SeeContent:active,
+.SeeContent:visited {
+  font-family: Aleo;
+  font-size: 12pt;
+  margin: 0 0 0 0;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  /* font-size: 10pt; */
+  /* font-weight: bold; */
+  /* text-align: right; */
+  /* color: white; */
+}
+
+.SeeContent:hover {
+  background: white;
+  color: #16A085;
+  /* padding: 10px; */
+  border-radius: 15px;
+}
+
+#LocActive {
+  font-weight: bold;
+  /* border-bottom: 3px solid white; */
+}
+
+
 .IsiContent {
   font-family: Aleo;
   background-color: #16A085;
