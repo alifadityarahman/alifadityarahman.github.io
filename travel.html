@@ -11,13 +11,13 @@
 </head>
 
 <body>
-  <video autoplay loop muted>
+  <!-- <video autoplay loop muted>
     <source src=" " type="video/mp4">
-  </video>
+  </video> -->
 
-  <body background=grey>
-    <div class="videobg">
-      <nav class="nav">
+  <body bgcolor="white">
+    <div class="bgContent">
+      <nav class="navContent">
         <div class="logoMT">
           <a href="index.html">
             <img src="IMG/logo.png" weight="50" height="50" class="transisi">
@@ -26,27 +26,27 @@
         <div class="navbar">
           <ul>
             <li>
-              <a href="index.html" class="link">
+              <a href="index.html" class="linkContent">
                 <font>BERANDA</font>
               </a>
             </li>
             <li>
-              <a href="rekomendasi.html" class="link">
+              <a href="rekomendasi.html" id="activeContent" class="linkContent">
                 <font>REKOMENDASI</font>
               </a>
             </li>
             <li>
-              <a href="penginapan.html" class="link">
+              <a href="penginapan.html" class="linkContent">
                 <font>PENGINAPAN</font>
               </a>
             </li>
             <li>
-              <a href="travel.html" id="active" class="link">
+              <a href="travel.html" class="linkContent">
                 <font>TRAVEL</font>
               </a>
             </li>
             <li>
-              <a href="tentangkami.html" class="link">
+              <a href="tentangkami.html" class="linkContent">
                 <font>TENTANG KAMI</font>
               </a>
             </li>
@@ -55,8 +55,39 @@
         <div class="akun">
           <a href="login.html"><img src="IMG/tombollogin.png" onclick="showLogin()" weight="60" height="60"></a>
         </div>
-      </nav>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br>
+      </nav><br>
+      <div class="gridLocation">
+        <div>
+          <a href="" class="location">
+            <font class="locationContent">Recomendasi
+            </font>
+          </a>
+        </div>
+        <div>
+          <a href="" class="location">
+            <font class="locationContent">> Jawa dan Madura
+            </font>
+          </a>
+        </div>
+        <div>
+          <a href="" class="location">
+            <font class="locationContent">> Jakarta
+            </font>
+          </a>
+        </div>
+        <div>
+          <a href="" class="location">
+            <font id="LocActive">> Masjid Istiqlal
+            </font>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="judul">
+      <p class="judul">
+        <font color="black">Masjid Istiqlal, Jakarta</font>
+      </p>
+    </div>
   </body>
 </body>
 
