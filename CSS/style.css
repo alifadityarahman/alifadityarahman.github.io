@@ -48,7 +48,15 @@ body.background {
   display: grid;
   grid-template-columns: 18% auto 15%;
   align-items: center;
+}
 
+.navContent {
+  background-color: #16A085;
+  width: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 18% auto 15%;
+  align-items: center;
 }
 
 .logoMT {
