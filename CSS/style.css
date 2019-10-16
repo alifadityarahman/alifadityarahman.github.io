@@ -645,6 +645,10 @@ body {
   color: white;
 }
 
+.footerIndex {
+  margin-top: 25%;
+}
+
 .ikutikami {
   box-sizing: border-box;
   width: 35%;
@@ -942,16 +946,16 @@ div.bar a {
   font-weight: bold;
 }
 
-@media screen and (min-width: 920px) {
+/* @media screen and (min-width: 920px) {
 
   div#find input,
   div#bar a {
     display: none;
   }
-}
+} */
 
 /* footer  */
-footer {
+/* footer {
   position: static;
   background-color: rgba(255, 255, 255, 0.8);
   width: 100%;
@@ -959,9 +963,9 @@ footer {
   margin: 0;
   padding: 10px 0;
   box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
-}
+} */
 
-@media screen and (min-width: 400px) {
+/* @media screen and (min-width: 400px) {
   footer {
     position: static;
   }
@@ -1002,4 +1006,4 @@ footer {
   footer {
     display: none;
   }
-}
+} */
