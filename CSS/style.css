@@ -90,6 +90,25 @@ body.background {
   border-radius: 10rem;
 }
 
+.linkContent,
+.linkContent:link,
+.linkContent:active,
+.linkContent:visited {
+  font-size: 10pt;
+  font-weight: bold;
+  /* text-align: right; */
+  color: white;
+  text-decoration: none;
+  padding: 12.5px;
+  font-family: sans-serif;
+}
+
+.linkContent:hover {
+  background: white;
+  color: #16A085;
+  border-radius: 10rem;
+}
+
 #active {
   border-bottom: 3px solid white;
 }
