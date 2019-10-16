@@ -1179,3 +1179,12 @@ ul {
     grid-template-columns: auto auto auto auto ;
     grid-gap: 10px;
 }
+
+/*halaman rekomendasi daerah*/
+.list_rekomendasi{
+  weight: 100px;
+  height: 100px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
