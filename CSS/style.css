@@ -1,9 +1,4 @@
 /* Untuk setting backgound utama */
-body.background {
-  background-size: 100%;
-  display: block;
-}
-
 body {
   background-color: #16A085;
   font-family: Arial;
@@ -49,19 +44,21 @@ body {
 } */
 
 .nav {
-  width: auto;
-  margin: 0 auto;
+  position: fixed;
+  width: 100%;
+  margin: 0 0 0 0;
   display: grid;
-  grid-template-columns: 18% auto 15%;
+  grid-template-columns: 18% 67.5% 15%;
   align-items: center;
 }
 
 .navContent {
+  position: fixed;
   background-color: #16A085;
-  width: auto;
-  margin: 0 auto;
+  width: 100%;
+  margin: -1% 0 0 0;
   display: grid;
-  grid-template-columns: 18% auto 15%;
+  grid-template-columns: 18% 67.5% 15%;
   align-items: center;
 }
 
@@ -162,6 +159,10 @@ body {
   color: white;
 }
 
+.ContentVideo {
+  margin: 15% 0 5% 25%;
+}
+
 .gridLocation {
   background-color: #16A085;
   border-radius: 15px;
@@ -169,7 +170,7 @@ body {
   margin: 0 4% 0 4%;
   display: grid;
   padding: 4px;
-  grid-template-columns: 9% 12.75% 6.5% 13% auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: 9.5% 13.5% 7% 13% auto auto auto auto auto auto auto auto auto;
   align-items: center;
 }
 
@@ -736,13 +737,10 @@ body {
 }
 
 .bgContent {
-  position: fixed;
+  /* position: fixed; */
   background-color: rgba(255, 255, 255, 0.97);
   overflow: hidden;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  margin: 0 -0.5% -0.5%;
   object-fit: cover;
 }
 
