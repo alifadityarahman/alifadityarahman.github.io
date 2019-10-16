@@ -148,7 +148,7 @@ body.background {
   margin: 0 4% 0 4%;
   display: grid;
   padding: 4px;
-  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: 10% 15% 8% 13% auto auto auto auto auto auto auto auto auto;
   align-items: center;
 }
 
@@ -156,23 +156,27 @@ body.background {
 .location:link,
 .location:active,
 .location:visited {
-  font-family: Montserrat SemiBold;
+  font-family: Arial;
   font-size: 12pt;
-  margin: 0 0 0 4.25%;
+  margin: 0 0 0 0;
   color: white;
-  padding: 4px;
+  padding: 5px;
   text-decoration: none;
   /* font-size: 10pt; */
   /* font-weight: bold; */
   /* text-align: right; */
   /* color: white; */
-
 }
 
 .location:hover {
   background: white;
   color: #16A085;
   /* border-radius: 10rem; */
+}
+
+#LocActive {
+  font-weight: bold;
+  /* border-bottom: 3px solid white; */
 }
 
 .isi {
