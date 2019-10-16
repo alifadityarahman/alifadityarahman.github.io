@@ -386,7 +386,15 @@ body {
   margin: 0 0;
 }
 
-.buttonGrid {
+.buttonGridLogin {
+  width: auto;
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: 6% auto auto;
+  align-items: center;
+}
+
+.buttonGridDaftar {
   width: auto;
   margin-top: 8px;
   display: grid;
