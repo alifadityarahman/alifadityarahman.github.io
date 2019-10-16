@@ -54,6 +54,7 @@
       <div class="ketLog">
         <p class="ketLogdtl">Diisi dengan Password akun anda.</p>
       </div>
+      <input class="cbingatSaya" onclick="tampilkanpsw()" type="checkbox">
       <div class="buttonGridLogin">
         <div class="cbingatSaya">
           <input class="cbingatSaya" type="checkbox">
@@ -85,6 +86,15 @@
     </div>
   </div>
   </div>
+  <script>
+    function tampilkanpsw() {
+      var x = document.getElementById("psw");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+  </script>
 </body>
 </body>
 
