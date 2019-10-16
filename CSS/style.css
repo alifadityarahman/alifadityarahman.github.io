@@ -113,6 +113,14 @@ body.background {
   border-bottom: 3px solid white;
 }
 
+#activeContent {
+  border-bottom: 3px solid white;
+}
+
+#activeContent:hover {
+  border-bottom: 3px solid #16A085;
+}
+
 .transisi {
   transition: 0.4s;
 }
