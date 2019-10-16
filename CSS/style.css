@@ -594,6 +594,44 @@ body.background {
   font-size: 20px;
 }
 
+/* -------------------------------- */
+
+#message {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
+  position: absolute;
+  padding: 5%;
+  margin-top: -32%;
+  margin-left: 5%;
+  width: 17%;
+  height: 35%;
+}
+
+#message p {
+  font-size: 100%;
+}
+
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -20%;
+  content: "OK";
+}
+
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "X";
+}
+
 /* ------------------------------- */
 
 body {
