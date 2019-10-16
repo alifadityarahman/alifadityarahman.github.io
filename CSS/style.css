@@ -152,7 +152,7 @@ body.background {
   margin: 0 4% 0 4%;
   display: grid;
   padding: 4px;
-  grid-template-columns: 10% 15% 8% 13% auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: 9% 12.75% 6.5% 13% auto auto auto auto auto auto auto auto auto;
   align-items: center;
 }
 
@@ -160,7 +160,7 @@ body.background {
 .location:link,
 .location:active,
 .location:visited {
-  font-family: Arial;
+  font-family: Aleo;
   font-size: 12pt;
   margin: 0 0 0 0;
   color: white;
