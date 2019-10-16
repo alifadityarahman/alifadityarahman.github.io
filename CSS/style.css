@@ -611,15 +611,19 @@ body {
 /* -------------------------------- */
 
 #message {
+  font-family: Aleo;
+  text-align: left;
   display: none;
-  background-color: rgba(255, 255, 255, 0.5);
-  color: #000;
+  border-radius: 20px;
+  background-color: rgba(2, 77, 139, 0.849);
+  color: white;
   position: absolute;
-  padding: 5%;
-  /* margin-top: -32%; */
-  margin-left: 5%;
-  width: 17%;
-  height: 35%;
+  padding: 4%;
+  /* text-align: right; */
+  margin-top: 14%;
+  margin-left: 79%;
+  width: 10%;
+  height: 38%;
 }
 
 #message p {
@@ -627,23 +631,23 @@ body {
 }
 
 .valid {
-  color: green;
+  color: white;
 }
 
 .valid:before {
   position: relative;
   left: -20%;
-  content: "OK";
+  content: "✓";
 }
 
 .invalid {
-  color: red;
+  color: orangered;
 }
 
 .invalid:before {
   position: relative;
   left: -35px;
-  content: "X";
+  content: "✘";
 }
 
 /* ------------------------------- */
