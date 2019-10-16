@@ -4,42 +4,59 @@
 <head>
   <meta charset="utf-8">
   <title>REKOMENDASI</title>
-  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <!-- <link rel="stylesheet" href="CSS/main.css"> -->
+  <!-- <script type="text/javascript" src="JS/index.js"></script> -->
+  <link rel="stylesheet" text="text/css" href="css/welcome.css" />
+  <link rel="stylesheet" type="text/css" href="CSS/style.css" />
 </head>
 
 <body>
-  <div class="navbar2">
-    <div class="logo">
-      <a href="index.html"><img src="IMG/logo.png" weight="50" height="50"></a>
-    </div>
-    <div class="navigasi2">
-      <a href="indexLogin.html" class="link">
-        <font>&nbsp;BERANDA</font>
-      </a>
-      <a href="rekomendasi.html" class="link">
-        <font>&nbsp;REKOMENDASI</font>
-      </a>
-      <a href="penginapan.html" class="link">
-        <font>&nbsp;PENGINAPAN</font>
-      </a>
-      <a href="travel.html" class="link">
-        <font>&nbsp;TRAVEL</font>
-      </a>
-      <a href="tentangkami.html" class="link">
-        <font>&nbsp;TENTANG KAMI&nbsp;</font>
-      </a>
-      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-      <div>
-        <a href="" class="user_profile">
-          <font>&nbsp;Hamba_Allah&nbsp;</font>
-          <img src="IMG/user.png" weight="30" height="30">
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class="peta">
+  <video autoplay loop muted>
+    <source src=" " type="video/mp4">
+  </video>
 
-  </div>
-</body>
+  <body background=grey>
+    <div class="videobg">
+      <nav class="nav">
+        <div class="logoMT">
+          <a href="index.html">
+            <img src="IMG/logo.png" weight="50" height="50" class="transisi">
+          </a>
+        </div>
+        <div class="navbar">
+          <ul>
+            <li>
+              <a href="index.html" class="link">
+                <font>BERANDA</font>
+              </a>
+            </li>
+            <li>
+              <a href="rekomendasi.html" id="active" class="link">
+                <font>REKOMENDASI</font>
+              </a>
+            </li>
+            <li>
+              <a href="penginapan.html" class="link">
+                <font>PENGINAPAN</font>
+              </a>
+            </li>
+            <li>
+              <a href="travel.html" class="link">
+                <font>TRAVEL</font>
+              </a>
+            </li>
+            <li>
+              <a href="tentangkami.html" class="link">
+                <font>TENTANG KAMI</font>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="akun">
+          <a href="login.html"><img src="IMG/tombollogin.png" onclick="showLogin()" weight="60" height="60"></a>
+        </div>
+      </nav>
+
+  </body>
 
 </html>
