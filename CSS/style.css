@@ -162,6 +162,39 @@ body {
   align-items: center;
 }
 
+.gridLocationP {
+  background-color: #16A085;
+  border-radius: 15px;
+  width: auto;
+  margin: 0 4% 0 4%;
+  display: grid;
+  padding: 4px;
+  grid-template-columns: 8% 12.75% 6.5% 13% auto auto auto auto auto auto auto auto auto;
+  align-items: center;
+}
+
+.gridLocationT {
+  background-color: #16A085;
+  border-radius: 15px;
+  width: auto;
+  margin: 0 4% 0 4%;
+  display: grid;
+  padding: 4px;
+  grid-template-columns: 5% 12.75% 6.5% 13% auto auto auto auto auto auto auto auto auto;
+  align-items: center;
+}
+
+.gridLocationTK {
+  background-color: #16A085;
+  border-radius: 15px;
+  width: auto;
+  margin: 0 4% 0 4%;
+  display: grid;
+  padding: 4px;
+  grid-template-columns: 10% 12.75% 6.5% 13% auto auto auto auto auto auto auto auto auto;
+  align-items: center;
+}
+
 .location,
 .location:link,
 .location:active,
