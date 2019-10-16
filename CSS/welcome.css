@@ -85,7 +85,7 @@ video {
 }
 
 .navigasi {
-	background-color: blue;
+	/* background-color: blue; */
 	width: auto;
 	height: 40px;
 	padding: 0px;
@@ -96,18 +96,16 @@ video {
 
 ul {
 	padding: 0px;
-	margin: 0px;
+	margin: -11px 10px 0 140px;
 	list-style: none;
 }
 
 ul li {
-	background-color: blue;
-	float: left;
-	width: 200px;
-	height: 40px;
-	line-height: 40px;
+	/* background-color: blue; */
 	text-align: center;
-	font-size: 20px;
+	float: left;
+	width: 140px;
+	height: 40px;
 }
 
 ul li a {
@@ -119,7 +117,8 @@ ul li a {
 
 ul li a:hover {
 	transition: 0.4s;
-	background-color: green;
+	background: #16A085;
+	/* border-radius: 180px; */
 }
 
 ul li ul li {
@@ -150,10 +149,10 @@ ul li:hover ul li {
 	}
 
 	ul li {
-		background-color: blue;
+		/* background-color: blue; */
 		float: left;
 		width: 100px;
-		height: 20px;
+		/* height: 20px; */
 		line-height: 20px;
 		text-align: center;
 		font-size: 10px;
@@ -161,7 +160,7 @@ ul li:hover ul li {
 	}
 
 	.navigasi {
-		background-color: blue;
+		/* background-color: blue; */
 		width: auto;
 		height: 20px;
 		padding: 0px;

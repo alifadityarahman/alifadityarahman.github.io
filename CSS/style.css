@@ -33,23 +33,32 @@ body.background {
   transform: translate(-50%, -50%)
 }
 
+/* nav {
+  position: fixed;
+  width: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 18% auto 15%;
+  align-items: center;
+} */
+
 .nav {
   width: auto;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: auto auto 15%;
+  grid-template-columns: 18% auto 15%;
   align-items: center;
 }
 
 .logoMT {
-  text-align: left;
-  margin-left: 15%;
+  text-align: right;
+  /* margin-left: 15%; */
 }
 
 .navbar {
   font-family: Montserrat SemiBold;
   font-size: 10pt;
-  text-align: right;
+
   height: 10pt;
 }
 
@@ -59,16 +68,16 @@ body.background {
 .link:visited {
   font-size: 10pt;
   font-weight: bold;
-  text-align: right;
+  /* text-align: right; */
   color: white;
   text-decoration: none;
-  padding: 10px;
+  padding: 12.5px;
   font-family: sans-serif;
 }
 
 .link:hover {
   background: #16A085;
-  border-radius: 18px;
+  border-radius: 10rem;
 }
 
 .akun {
