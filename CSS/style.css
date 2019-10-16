@@ -4,6 +4,35 @@ body.background {
   display: block;
 }
 
+.slideshow {
+  display: none;
+}
+
+.videobg {
+  position: fixed;
+  background-color: rgba(0, 0, 100, 0.3);
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.videobg h2 {
+  transition: 0.4s;
+  text-align: center;
+  font-size: 5rem;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  margin-right: -50%;
+  margin: 0px;
+  padding: 0px;
+  opacity: .9;
+  transform: translate(-50%, -50%)
+}
+
 .nav {
   width: auto;
   margin: 0 auto;
@@ -418,15 +447,15 @@ body.background {
 }
 
 .user_profile {
-	background-color: white;
-	float: right;
-	margin-top: -28px;
-	margin-right: -80px;
-	text-decoration: none;
-	border-radius: 20px;
-	padding: 5px 5px 5px 5px;
-	color: #143D16;
-	font-size: 15px;
+  background-color: white;
+  float: right;
+  margin-top: -28px;
+  margin-right: -80px;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+  color: #143D16;
+  font-size: 15px;
 }
 
 .navigasi2 {
@@ -435,38 +464,38 @@ body.background {
   margin-right: 50px;
 }
 
-.peta_atas{
+.peta_atas {
   display: grid;
   grid-template-columns: 15% 18% 1% 1% 1%;
   grid-gap: 100px;
 }
 
-.peta_bawah{
+.peta_bawah {
   display: grid;
   grid-template-columns: 50% 20%;
   grid-gap: 70px;
 
 }
 
-.footer{
+.footer {
   background-color: #143D16;
   color: white;
 }
 
-.ikutikami{
-  box-sizing : border-box;
+.ikutikami {
+  box-sizing: border-box;
   width: 35%;
   padding: 10px;
   font-size: 11pt;
   margin-bottom: 20px;
 }
 
-.kotakikuti{
+.kotakikuti {
   background-color: #C49D48;
   width: 10%;
-	text-decoration: none;
-	border-radius: 10px;
-	padding: 1px 1px 1px 1px;
-	color: white;
-	font-size: 15px;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 1px 1px 1px 1px;
+  color: white;
+  font-size: 15px;
 }
