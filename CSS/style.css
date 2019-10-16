@@ -10,7 +10,7 @@ body.background {
 
 .videobg {
   position: fixed;
-  background-color: rgba(0, 0, 100, 0.3);
+  /* background-color: rgba(0, 0, 100, 0.3); */
   overflow: hidden;
   top: 0;
   right: 0;
