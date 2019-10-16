@@ -1107,3 +1107,30 @@ div.bar a {
 =======
 } */
 >>>>>>> 2171c5b869d5184f83f7138bd037986627061e16
+
+ul {
+    margin:0;padding:0;
+}
+ul li {
+    padding-right: 9em;
+    color:white;
+}
+
+.footer_col1 {
+  display:grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  /* grid-gap: 1000px; */
+  padding: 4em 10em;
+  margin-right: 10px;
+  /* margin-top: -1px; */
+  margin-bottom: 100px;
+  padding-top: 10px;
+}
+
+ul {
+    display:grid;
+    /* list-style-type:none; */
+    margin:-10px;padding:-20px;
+    grid-template-columns: auto auto auto auto ;
+    grid-gap: 10px;
+}
