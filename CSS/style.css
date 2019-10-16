@@ -68,7 +68,6 @@ body.background {
 .navbar {
   font-family: Montserrat SemiBold;
   font-size: 10pt;
-
   height: 10pt;
 }
 
@@ -81,7 +80,7 @@ body.background {
   /* text-align: right; */
   color: white;
   text-decoration: none;
-  padding: 12.5px;
+  padding: 12px;
   font-family: sans-serif;
 }
 
@@ -99,7 +98,7 @@ body.background {
   /* text-align: right; */
   color: white;
   text-decoration: none;
-  padding: 12.5px;
+  padding: 12px;
   font-family: sans-serif;
 }
 
@@ -138,9 +137,42 @@ body.background {
 .judul {
   font-family: Montserrat SemiBold;
   font-size: 30pt;
-  margin-left: 4.25%;
-  margin-top: 0%;
-  margin-bottom: 0%;
+  /* margin-left: ; */
+  /* margin: 0 0 0 4.25%; */
+}
+
+.gridLocation {
+  background-color: #16A085;
+  border-radius: 15px;
+  width: auto;
+  margin: 0 4% 0 4%;
+  display: grid;
+  padding: 4px;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  align-items: center;
+}
+
+.location,
+.location:link,
+.location:active,
+.location:visited {
+  font-family: Montserrat SemiBold;
+  font-size: 12pt;
+  margin: 0 0 0 4.25%;
+  color: white;
+  padding: 4px;
+  text-decoration: none;
+  /* font-size: 10pt; */
+  /* font-weight: bold; */
+  /* text-align: right; */
+  /* color: white; */
+
+}
+
+.location:hover {
+  background: white;
+  color: #16A085;
+  /* border-radius: 10rem; */
 }
 
 .isi {
