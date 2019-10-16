@@ -48,10 +48,12 @@ body.background {
   display: grid;
   grid-template-columns: 18% auto 15%;
   align-items: center;
+
 }
 
 .logoMT {
   text-align: right;
+  margin-top: 5px;
   /* margin-left: 15%; */
 }
 
@@ -78,6 +80,14 @@ body.background {
 .link:hover {
   background: #16A085;
   border-radius: 10rem;
+}
+
+#active {
+  border-bottom: 3px solid white;
+}
+
+.transisi {
+  transition: 0.4s;
 }
 
 .akun {
