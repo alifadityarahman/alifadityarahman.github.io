@@ -112,6 +112,10 @@ body.background {
   border-bottom: 3px solid white;
 }
 
+#active:hover {
+  border-bottom: 0px solid rgba(22, 160, 132, 0);
+}
+
 #activeContent {
   border-bottom: 3px solid white;
 }
