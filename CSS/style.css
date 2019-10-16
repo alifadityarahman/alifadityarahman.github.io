@@ -499,3 +499,94 @@ body.background {
   color: white;
   font-size: 15px;
 }
+
+
+/* Responsive Page */
+@media screen and (max-width: 920px) {
+  .topnav li .respon {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: left;
+    display: block;
+    padding-right: 30px;
+    padding-left: 0px;
+  }
+}
+
+/* interaksi bar  */
+div.bar {
+  text-align: center;
+  transition: height 3s ease-out;
+}
+
+div.bar a {
+  padding: 4px 0;
+  display: block;
+  color: #595959;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 920px) {
+
+  div#find input,
+  div#bar a {
+    display: none;
+  }
+}
+
+/* footer  */
+footer {
+  position: static;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
+}
+
+@media screen and (min-width: 400px) {
+  footer {
+    position: static;
+  }
+
+  footer div a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 0px;
+    display: inline;
+    color: #7F7F7F;
+  }
+
+  footer div p {
+    text-align: center;
+    color: #7F7F7F;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  footer div a {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0;
+    display: block;
+    color: #7F7F7F;
+  }
+
+  footer div p {
+    text-align: center;
+    color: #7F7F7F;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (min-heigth: 300px) {
+  footer {
+    display: none;
+  }
+}
