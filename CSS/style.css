@@ -390,7 +390,7 @@ body {
   width: auto;
   margin-top: 8px;
   display: grid;
-  grid-template-columns: 6% auto auto;
+  grid-template-columns: 6% 44% 6% auto;
   align-items: center;
 }
 
