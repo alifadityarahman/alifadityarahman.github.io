@@ -11,36 +11,52 @@
 </head>
 
 <body>
+  <video autoplay loop muted>
+    <source src=" " type="video/mp4">
+  </video>
 
-  <body background="IMG/masjid-istiqlal.png" class="background">
-    <div class="nav">
-      <div class="logoMT">
-        <a href="index.html">
-          <img src="IMG/logo.png" weight="50" height="50">
-        </a>
-      </div>
-      <div class="navbar">
-        <a href="index.html" class="link">
-          <font>&nbsp;BERANDA</font>
-        </a>
-        <a href="rekomendasi.html" class="link">
-          <font>&nbsp;REKOMENDASI</font>
-        </a>
-        <a href="penginapan.html" class="link">
-          <font>&nbsp;PENGINAPAN</font>
-        </a>
-        <a href="travel.html" class="link">
-          <font>&nbsp;TRAVEL</font>
-        </a>
-        <a href="tentangkami.html" class="link">
-          <font>&nbsp;TENTANG KAMI&nbsp;</font>
-        </a>
-      </div>
-      <div class="akun">
-        <a href="login.html"><img src="IMG/tombollogin.png" weight="60" height="60"></a>
-      </div>
-    </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <body background=grey>
+    <div class="videobg">
+      <nav class="nav">
+        <div class="logoMT">
+          <a href="index.html">
+            <img src="IMG/logo.png" weight="50" height="50" class="transisi">
+          </a>
+        </div>
+        <div class="navbar">
+          <ul>
+            <li>
+              <a href="index.html" id="active" class="link">
+                <font>BERANDA</font>
+              </a>
+            </li>
+            <li>
+              <a href="rekomendasi.html" class="link">
+                <font>REKOMENDASI</font>
+              </a>
+            </li>
+            <li>
+              <a href="penginapan.html" class="link">
+                <font>PENGINAPAN</font>
+              </a>
+            </li>
+            <li>
+              <a href="travel.html" class="link">
+                <font>TRAVEL</font>
+              </a>
+            </li>
+            <li>
+              <a href="tentangkami.html" class="link">
+                <font>TENTANG KAMI</font>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="akun">
+          <a href="login.html"><img src="IMG/tombollogin.png" onclick="showLogin()" weight="60" height="60"></a>
+        </div>
+      </nav>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br>
   </body>
 </body>
 
