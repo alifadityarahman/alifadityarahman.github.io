@@ -791,6 +791,8 @@ body {
   margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
+=======
 .kotakikuti {
   background-color: #C49D48;
   width: 10%;
@@ -1051,6 +1053,7 @@ ul li:hover ul li {
 }
 
 /* ------------------------------- */
+>>>>>>> 2171c5b869d5184f83f7138bd037986627061e16
 
 /* Responsive Page */
 @media screen and (max-width: 920px) {
@@ -1093,7 +1096,7 @@ div.bar a {
   position: static;
   background-color: rgba(255, 255, 255, 0.8);
   width: 100%;
-  text-align: center;
+  /* text-align: center; */
   margin: 0;
   padding: 10px 0;
   box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
@@ -1140,4 +1143,12 @@ div.bar a {
   footer {
     display: none;
   }
+<<<<<<< HEAD
+}
+
+.ket{
+  grid-template-columns: auto auto auto;
+}
+=======
 } */
+>>>>>>> 2171c5b869d5184f83f7138bd037986627061e16
