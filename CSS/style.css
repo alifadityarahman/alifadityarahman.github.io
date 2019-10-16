@@ -4,6 +4,12 @@ body.background {
   display: block;
 }
 
+body {
+  background-color: #16A085;
+  font-family: Arial;
+  /* color: white; */
+}
+
 .slideshow {
   display: none;
 }
@@ -602,7 +608,7 @@ body.background {
   color: #000;
   position: absolute;
   padding: 5%;
-  margin-top: -32%;
+  /* margin-top: -32%; */
   margin-left: 5%;
   width: 17%;
   height: 35%;
@@ -634,11 +640,7 @@ body.background {
 
 /* ------------------------------- */
 
-body {
-  background-color: black;
-  font-family: Arial;
-  /* color: white; */
-}
+
 
 .kaki {
   position: absolute;
