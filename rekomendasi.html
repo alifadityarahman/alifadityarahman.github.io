@@ -8,34 +8,74 @@
 </head>
 
 <body>
-  <div class="navbar2">
-    <div class="logo">
-      <a href="index.html"><img src="IMG/logo.png" weight="50" height="50"></a>
-    </div>
-    <div class="navigasi2">
-      <a href="index.html" class="link">
-        <font>&nbsp;BERANDA</font>
-      </a>
-      <a href="rekomendasi.html" class="link">
-        <font>&nbsp;REKOMENDASI</font>
-      </a>
-      <a href="penginapan.html" class="link">
-        <font>&nbsp;PENGINAPAN</font>
-      </a>
-      <a href="travel.html" class="link">
-        <font>&nbsp;TRAVEL</font>
-      </a>
-      <a href="tentangkami.html" class="link">
-        <font>&nbsp;TENTANG KAMI&nbsp;</font>
-      </a>
-      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-      <div>
-        <a href="" class="user_profile">
-          <font>&nbsp;Hamba_Allah&nbsp;</font>
-          <img src="IMG/user.png" weight="30" height="30">
-        </a>
+  <body bgcolor="white">
+    <div class="bgContent">
+      <nav class="navContent">
+        <div class="logoMT">
+          <a href="index.html">
+            <img src="IMG/logo.png" weight="50" height="50" class="transisi">
+          </a>
+        </div>
+        <div class="navbar">
+          <ul>
+            <li>
+              <a href="index.html" class="linkContent">
+                <font>BERANDA</font>
+              </a>
+            </li>
+            <li>
+              <a href="rekomendasi.html" id="activeContent" class="linkContent">
+                <font>REKOMENDASI</font>
+              </a>
+            </li>
+            <li>
+              <a href="penginapan.html" class="linkContent">
+                <font>PENGINAPAN</font>
+              </a>
+            </li>
+            <li>
+              <a href="travel.html" class="linkContent">
+                <font>TRAVEL</font>
+              </a>
+            </li>
+            <li>
+              <a href="tentangkami.html" class="linkContent">
+                <font>TENTANG KAMI</font>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="akun">
+          <a href="login.html"><img src="IMG/tombollogin.png" onclick="showLogin()" weight="60" height="60"></a>
+        </div>
+      </nav><br><br><br><br><br>
+      <div class="gridLocation">
+        <div>
+          <a href="rekomendasi.html" class="location">
+            <font class="locationContent">Rekomendasi
+            </font>
+          </a>
+        </div>
+        <div>
+          <a href="rekomendasi_jawa.html" class="location">
+            <font class="locationContent">
+            </font>
+          </a>
+        </div>
+        <div>
+          <a href="" class="location">
+            <font class="locationContent">
+            </font>
+          </a>
+        </div>
+        <div>
+          <a href="" class="location">
+            <font id="LocActive">
+            </font>
+          </a>
+        </div>
       </div>
-    </div>
+      <br>
   </div><br><br><br><br>
   <div>
     <p style="color: #143D16; font-size: 25px;"><img src="IMG/star.png"
@@ -45,17 +85,20 @@
         wisata</p>
     </center>
   </div>
-  <div class="peta_atas">
-    <a href="rekomendasi_sumatera.html"><img src="IMG/Sumatera.png"></a>
-    <a href="rekomendasi_kalimantan.html"><img src="IMG/Kalimantan.png"></a>
-    <a href="rekomendasi_sulawesi.html"><img src="IMG/Sulawesi.png"></a>
-    <a href="rekomendasi_maluku.html"><img src="IMG/Maluku.png"></a>
-    <a href="rekomendasi_papua.html"><img src="IMG/Papua.png"></a>
-  </div>
-  <div class="peta_bawah">
-    <a href="rekomendasi_jawa.html"><img src="IMG/Jawa.png" style="padding-left: 300px;"></a>
-    <a href="rekomendasi_nusatenggara.html"><img src="IMG/Nusa tenggara.png"></a>
-  </div><br>
+  <div class="ContentPeta">
+    <div class="peta_atas">
+      <a href="rekomendasi_sumatera.html"><img src="IMG/Sumatera.png" width=150%></a>
+      <a href="rekomendasi_kalimantan.html"><img src="IMG/Kalimantan.png"  width=130%></a>
+      <a href="rekomendasi_sulawesi.html"><img src="IMG/Sulawesi.png" width=170%></a>
+      <a href="rekomendasi_maluku.html"><img src="IMG/Maluku.png" width=140%></a>
+      <a href="rekomendasi_papua.html"><img src="IMG/Papua.png" width=140%></a>
+    </div>
+    <div class="peta_bawah">
+      <a href="rekomendasi_jawa.html"><img src="IMG/Jawa.png" width=60% style="padding-left: 300px;"></a>
+      <a href="rekomendasi_nusatenggara.html"><img src="IMG/Nusa tenggara.png" width=80%></a>
+    </div>
+</div>
+<br>
   <footer>
     <div class="footer">
       <br>
@@ -64,10 +107,14 @@
       </center>
       <center>
         <h6>Untuk Mendapatkan Informasi Terkini dari Kami, Silakan Masukkan Email Anda</h6>
-      </center>
-      <center><input type="text" name="email" class="ikutikami" placeholder="Masukkan Email Anda"
-          style="margin-top: -120px;">&nbsp;
-        <a href=""><img src="IMG/email.png" style="width: 10%; height: 40px;"></a><br></center>
+      </center><br><br>
+      <div class="ikuti">
+        <input type="text" name="email" class="ikutikami" placeholder="Masukkan Email Anda" style="margin-top: -120px; width: 85%; height: 60%">
+        <a href=""><img src="IMG/email.png"></a><br>
+      </div>
+      <!-- <center><input type="text" name="email" class="ikutikami" placeholder="Masukkan Email Anda"
+          style="margin-top: -120px;">&nbsp; -->
+        <!-- <a href=""><img src="IMG/email.png" style="width: 10%; height: 40px;"></a><br></center> -->
       <div class="footer_col1">
         <ul class="footerul">
           <li class="footerli">
