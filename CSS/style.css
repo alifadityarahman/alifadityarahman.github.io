@@ -1182,6 +1182,14 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
   height: auto;
 }
 
+<<<<<<< HEAD
+.gambar_rekomendasi{
+  max-width: 100%;
+  display: block;
+  /* height: auto; */
+  border-radius: 10px;
+}
+=======
 .gambar_rekomendasi {
   /* weight: 100px; */
   font-weight: 100px;
@@ -1190,3 +1198,4 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
   display: block;
   height: auto;
 }
+>>>>>>> f6492ab3b7f1fac67defb2d9ed3387be986a0515
