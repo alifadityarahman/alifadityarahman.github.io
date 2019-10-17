@@ -555,6 +555,30 @@ body {
   border-radius: 25px;
 }
 
+.gridakun,
+.gridakun:link,
+.gridakun:visited {
+  width: auto;
+  margin: 0 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+.kelolaAkun:hover {
+  background-color: #16A085;
+  border-radius: 15px;
+  padding: 10px;
+  color: white;
+}
+
+.logout:hover {
+  background-color: #16A085;
+  border-radius: 15px;
+  padding: 10px;
+  color: white;
+}
+
 .ketLog {
   margin-top: -6px;
   margin-left: 105px;
