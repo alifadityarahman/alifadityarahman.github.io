@@ -1174,7 +1174,8 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
 
 /*halaman rekomendasi daerah*/
 .list_rekomendasi {
-  weight: 100px;
+  /* weight: 100px; */
+  font-weight: 100px;
   height: 100px;
   max-width: 100%;
   display: block;
@@ -1182,7 +1183,8 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
 }
 
 .gambar_rekomendasi {
-  weight: 100px;
+  /* weight: 100px; */
+  font-weight: 100px;
   height: 100px;
   max-width: 100%;
   display: block;
