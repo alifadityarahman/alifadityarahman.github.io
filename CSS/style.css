@@ -810,11 +810,12 @@ body {
 }
 
 .ikutikami {
-  /* box-sizing: border-box;
+  box-sizing: border-box;
   width: 35%;
   padding: 10px;
   font-size: 11pt;
-  margin-bottom: 20px; */
+  margin-bottom: 20px;
+  margin-top: -20px;
 }
 
 .ikuti {
