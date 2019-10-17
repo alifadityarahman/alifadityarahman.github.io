@@ -763,14 +763,16 @@ body {
 
 .peta_atas {
   display: grid;
-  grid-template-columns: 15% 18% 1% 1% 1%;
-  grid-gap: 100px;
+  grid-template-columns: 15% 14% 8% 8% 10%;
+  grid-gap: 50px;
+  margin-left: 20%;
 }
 
 .peta_bawah {
   display: grid;
-  grid-template-columns: 50% 20%;
+  grid-template-columns: 40% 20%;
   grid-gap: 70px;
+  margin-left: 15%;
 
 }
 
@@ -784,11 +786,22 @@ body {
 }
 
 .ikutikami {
-  box-sizing: border-box;
+  /* box-sizing: border-box;
   width: 35%;
   padding: 10px;
   font-size: 11pt;
+  margin-bottom: 20px; */
+}
+
+.ikuti {
+  /* box-sizing: border-box; */
+  width: 35%;
+  /* padding: 10px; */
+  font-size: 11pt;
   margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
 }
 
 /* <<<<<<< HEAD=======.kotakikuti {
@@ -1198,4 +1211,14 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
   display: block;
   height: auto;
 }
->>>>>>> f6492ab3b7f1fac67defb2d9ed3387be986a0515
+
+.ContentPeta {
+  font-family: Aleo;
+  background-color: #16A085;
+  border-radius: 20px;
+  width: auto;
+  margin: 0 4% 0 4%;
+  padding: 4px;
+  align-items: center;
+  color: white;
+}
