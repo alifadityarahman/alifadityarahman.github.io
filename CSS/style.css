@@ -1101,7 +1101,6 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
 }
 
 */
-
 /* @media screen and (min-width: 400px) {
   footer {
     position: static;
@@ -1143,18 +1142,9 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
   footer {
     display: none;
   }
-<<<<<<< HEAD
 }
 
-.ket{
-  grid-template-columns: auto auto auto;
-}
-=======
-} */
->>>>>>>2171c5b869d5184f83f7138bd037986627061e16 ul {
-  margin: 0;
-  padding: 0;
-}
+*/
 
 ul li {
   padding-right: 9em;
