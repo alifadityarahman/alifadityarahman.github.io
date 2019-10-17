@@ -765,14 +765,14 @@ body {
   display: grid;
   grid-template-columns: 15% 14% 8% 8% 10%;
   grid-gap: 50px;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 .peta_bawah {
   display: grid;
   grid-template-columns: 40% 20%;
   grid-gap: 70px;
-  margin-left: 15%;
+  margin-left: 7%;
 
 }
 
