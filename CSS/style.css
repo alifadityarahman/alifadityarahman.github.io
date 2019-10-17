@@ -791,9 +791,7 @@ body {
   margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
-=======
-.kotakikuti {
+/* <<<<<<< HEAD=======.kotakikuti {
   background-color: #C49D48;
   width: 10%;
   text-decoration: none;
@@ -801,7 +799,7 @@ body {
   padding: 1px 1px 1px 1px;
   color: white;
   font-size: 20px;
-}
+} */
 
 /* -------------------------------- */
 
@@ -1053,7 +1051,7 @@ ul li:hover ul li {
 }
 
 /* ------------------------------- */
->>>>>>> 2171c5b869d5184f83f7138bd037986627061e16
+/* >>>>>>>2171c5b869d5184f83f7138bd037986627061e16 */
 
 /* Responsive Page */
 @media screen and (max-width: 920px) {
@@ -1096,12 +1094,13 @@ div.bar a {
   position: static;
   background-color: rgba(255, 255, 255, 0.8);
   width: 100%;
-  /* text-align: center; */
-  margin: 0;
-  padding: 10px 0;
-  box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
-} */
+  text-align: center;
+margin: 0;
+padding: 10px 0;
+box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
+}
 
+*/
 /* @media screen and (min-width: 400px) {
   footer {
     position: static;
@@ -1143,26 +1142,18 @@ div.bar a {
   footer {
     display: none;
   }
-<<<<<<< HEAD
 }
 
-.ket{
-  grid-template-columns: auto auto auto;
-}
-=======
-} */
->>>>>>> 2171c5b869d5184f83f7138bd037986627061e16
+*/
 
-ul {
-    margin:0;padding:0;
-}
-ul li {
-    padding-right: 9em;
-    color:white;
+.footerli,
+.footerul {
+  padding-right: 9em;
+  color: white;
 }
 
 .footer_col1 {
-  display:grid;
+  display: grid;
   grid-template-columns: 20% 20% 20% 20%;
   /* grid-gap: 1000px; */
   padding: 4em 10em;
@@ -1172,26 +1163,39 @@ ul li {
   padding-top: 10px;
 }
 
-ul {
-    display:grid;
-    /* list-style-type:none; */
-    margin:-10px;padding:-20px;
-    grid-template-columns: auto auto auto auto ;
-    grid-gap: 10px;
+.footerul {
+  display: grid;
+  /* list-style-type:none; */
+  margin: -10px;
+  padding: -20px;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
 }
 
 /*halaman rekomendasi daerah*/
-.list_rekomendasi{
-  weight: 100px;
+.list_rekomendasi {
+  /* weight: 100px; */
+  font-weight: 100px;
   height: 100px;
   max-width: 100%;
   display: block;
   height: auto;
 }
 
+<<<<<<< HEAD
 .gambar_rekomendasi{
   max-width: 100%;
   display: block;
   /* height: auto; */
   border-radius: 10px;
 }
+=======
+.gambar_rekomendasi {
+  /* weight: 100px; */
+  font-weight: 100px;
+  height: 100px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+>>>>>>> f6492ab3b7f1fac67defb2d9ed3387be986a0515
