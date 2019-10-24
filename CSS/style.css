@@ -369,18 +369,11 @@ body {
 }
 
 .isi {
+  color: white;
   width: auto;
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto 35%;
-}
-
-.keterangan {
-  font-family: Montserrat SemiBold;
-  text-align: justify;
-  font-size: 12pt;
-  margin-left: 6.75%;
-  margin-right: 4.25%;
 }
 
 .telusuri {
@@ -800,6 +793,15 @@ body {
 
 .footerIndex {
   margin-top: 25%;
+}
+
+.keterangan {
+  color: white;
+  margin: 0 4% 0 7%;
+  font-family: Montserrat SemiBold;
+  text-align: justify;
+  font-size: 12pt;
+  line-height: 25px;
 }
 
 .ikutikami {
@@ -1227,11 +1229,11 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
 
   .keterangan {
     color: white;
+    margin: 0 4% 0 7%;
     font-family: Montserrat SemiBold;
-    text-align: left;
     text-align: justify;
-    font-size: 10pt;
-    scroll-margin-left: 3px;
+    font-size: 12pt;
+    line-height: 25px;
   }
 
   #active {
