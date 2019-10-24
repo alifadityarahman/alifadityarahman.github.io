@@ -189,8 +189,8 @@ body {
 .judul {
   font-family: Montserrat SemiBold;
   font-size: 30pt;
-  /* margin-left: 4.25%; */
   margin: 0 0 0 4.25%;
+  color: white;
 }
 
 .ContentGrid {
@@ -951,20 +951,20 @@ body {
   z-index: -1;
 }
 
-.judul h1 {
+/* .judul h1 {
   float: left;
   width: 75%;
   margin-top: 40px;
   font-size: 3rem;
   transition: 0.4s;
 
-}
+} */
 
-.judul img {
+/* .judul img {
   float: left;
   border-radius: 400px;
   margin: 20px
-}
+} */
 
 .navigasi {
   /* background-color: blue; */
@@ -1215,6 +1215,7 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
   .footerIndex {
     margin-top: 44%;
   }
+
 
   .judul {
     color: white;
