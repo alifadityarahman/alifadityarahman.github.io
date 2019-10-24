@@ -3,101 +3,130 @@
 
 <head>
   <meta charset="utf-8">
-  <title>daftar</title>
+  <title>Pendaftaran Akun</title>
+  <link rel="shortcut icon" href="IMG/logo.png" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
 
 <body>
-
-  <!-- <body background="IMG/masjid-istiqlal.png" class="background"> -->
-  <!-- <div class="backgroundTransparantDaf"> -->
-
-
   <div class="loginNav">
-    <div></div>
-    <div class="loginLogo">
-      <a href="index.html"> <img src="IMG/logo.png" class="loginLogo"></a><br>
-    </div>
-    <div></div>
+    <a href="index.html">
+      <img src="IMG/logo.png" class="loginNav">
+    </a>
   </div>
   <div class="kotakDaftar">
     <div class="titleNav">
       <div class="title">
-        <p class="title">DAFTAR</p>
+        <p class="title">
+          DAFTAR
+        </p>
       </div>
       <div class="cancel">
         <div class="cancel">
-          <a href="login.html"><img height="40px" src="IMG/cancel.png"></a>
+          <a href="login.html">
+            <img height="40px" src="IMG/cancel.png">
+          </a>
         </div>
       </div>
     </div>
     <div class="bodyWelcome">
-      <p class="bodyWelcome">Selamat Datang!
-        <br>Untuk Mendaftarkan Akun Anda, Silakan Isi dan Lengkapilah Data Berikut</p>
+      <p class="bodyWelcome">
+        Selamat Datang!
+        <br>
+        Untuk Mendaftarkan Akun Anda, Silakan Isi dan Lengkapilah Data Berikut
+      </p>
     </div>
     <div class="medsos">
-      <p class="medsos">Pakai <br> Media Sosial Anda</p>
+      <p class="medsos">
+        Pakai
+        <br>
+        Media Sosial Anda
+      </p>
       <div class="medsosLogo">
-        <a href=""><img class="medsosLogo" src="IMG/google.png"></a>
+        <a href="">
+          <img class="medsosLogo" src="IMG/google.png">
+        </a>
       </div>
       <div class="medsosLogo">
-        <a href=""><img class="medsosLogo" src="IMG/facebook.png"></a>
+        <a href="">
+          <img class="medsosLogo" src="IMG/facebook.png">
+        </a>
       </div>
       <div class="medsosLogo">
-        <a href=""><img class="medsosLogo" src="IMG/twitter.png"></a>
+        <a href="">
+          <img class="medsosLogo" src="IMG/twitter.png">
+        </a>
       </div>
-      <div style="width:2px; height:272.5px; background-color:black; margin-left: 189px;"></div>
+      <div style="width:2px; height:272.5px; background-color:black; margin-left: 189px;">
+      </div>
     </div>
     <form action="">
       <div class="inpLogNav">
         <div class="nameLog">
-          <label>Username</label>
+          <label>
+            Username
+          </label>
         </div>
         <div class="inputLog">
           <input type="text" name="username" class="inputLog" placeholder="contoh : abcdefg_123" required="required">
         </div>
       </div>
       <div class="ketDaftar">
-        <p class="ketDaftar">Karakter yang diperbolehkan hanya huruf . _ </p>
+        <p class="ketDaftar">
+          Masukkan Username Baru Anda
+        </p>
       </div>
       <div class="inpLogNav">
         <div class="nameLog">
-          <label>Email</label>
+          <label>
+            Email
+          </label>
         </div>
         <div class="inputLog">
-          <input type="email" name="email" class="inputLog" placeholder="contoh : abcdefg@gmail.com"
-            required="required"><br>
+          <input type="email" name="email" class="inputLog" placeholder="contoh : abc123@mosquetour.com"
+            required="required">
+          <br>
         </div>
       </div>
       <div class="ketDaftar">
-        <p class="ketDaftar">Masukkan Email Aktif Anda</p>
+        <p class="ketDaftar">
+          Masukkan Email Aktif Anda
+        </p>
       </div>
       <div class="inpLogNav">
         <div class="nameLog">
-          <label>Password</label>
+          <label>
+            Password
+          </label>
         </div>
         <div class="inputLog">
           <input type="password" name="password" class="inputLog" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-            placeholder="contoh : xxxxxxxx" required="required"><br>
+            placeholder="contoh : xxxxxxxx" required="required">
+          <br>
         </div>
       </div>
       <div class="ketDaftar">
-        <p class="ketDaftar">Masukkan Password Baru Anda, Min 8 Karakter</p>
+        <p class="ketDaftar">
+          Masukkan Password Baru Anda, Min 8 Karakter
+        </p>
       </div>
       <div class="buttonGridDaftar">
         <div class="cbingatSaya">
           <input class="cbingatSaya" type="checkbox">
         </div>
         <div class="ingatSaya">
-          <label>Ingat Saya</label>
+          <label>
+            Ingat Saya
+          </label>
         </div>
         <div>
           <input class="cbingatSaya" onclick="tampilkanpsw()" type="checkbox">
         </div>
         <div class="ingatSaya">
-          <label>Tampilkan Password</label>
+          <label>
+            Tampilkan Password
+          </label>
         </div>
-        <!-- <input align="Right" type="checkbox">Tampilkan Password -->
       </div>
       <div class="daftar">
         <button type="submit" formaction="login.html" class="daftarButton">
@@ -106,9 +135,6 @@
       </div>
     </form>
   </div>
-
-  <!-- </div> -->
-
   <div id="message">
     <h4>Password Harus Menggunakan Aturan Berikut:</h4>
     <p id="letter" class="invalid"><b>Huruf Kecil</b></p>
@@ -116,8 +142,6 @@
     <p id="number" class="invalid"><b>Angka</b></p>
     <p id="length" class="invalid"><b>Minimal 8 Karakter</b></p>
   </div>
-
-  <!-- </body> -->
 </body>
 
 </html>
