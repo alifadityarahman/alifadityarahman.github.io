@@ -2,65 +2,84 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <title>Login</title>
-  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    Mosque Tour | Login
+  </title>
+  <link rel="shortcut icon" href="IMG/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
-
-  <!-- <body background="IMG/masjid-istiqlal.png" class="background"> -->
-
-  <!-- <div class="backgroundTransparantLog"> -->
   <div class="loginNav">
-    <div></div>
-    <div class="loginLogo">
-      <a href="index.html"> <img src="IMG/logo.png" class="loginLogo"></a><br>
-    </div>
-    <div></div>
+    <a href="index.html">
+      <img src="IMG/logo.png" class="loginNav">
+    </a>
   </div>
   <div class="kotakLogin">
     <div class="titleNav">
       <div class="title">
-        <p class="title">MASUK</p>
+        <p class="title">
+          MASUK
+        </p>
       </div>
       <div class="cancel">
-        <a href="index.html"><img height="40px" src="IMG/cancel.png"></a>
+        <a href="index.html">
+          <img height="40px" src="IMG/cancel.png">
+        </a>
       </div>
     </div>
     <div class="bodyWelcome">
-      <p>Selamat Datang!<br>Untuk Melenjutkan perjalanan, Silahkan Masuk ke Akun Anda</p>
+      <p>
+        Selamat Datang!
+        <br>
+        Untuk Melenjutkan perjalanan, Silahkan Masuk ke Akun Anda
+      </p>
     </div>
     <form action="">
       <div class="inpLogNav">
         <div class="nameLog">
-          <label>Email</label>
+          <label>
+            Email
+          </label>
         </div>
         <div class="inputLog">
           <input type="email" name="emailInp" class="inputLog" placeholder="abcdefg@gmail.com" required="required">
         </div>
       </div>
       <div class="ketLog">
-        <p class="ketLogdtl">Diisi dengan email anda yang telah terdaftar</p>
+        <p class="ketLogdtl">
+          Diisi dengan email anda yang telah terdaftar
+        </p>
       </div>
       <div class="inpLogNav">
         <div class="nameLog">
-          <label>Password</label>
+          <label>
+            Password
+          </label>
         </div>
         <div class="inputLog">
-          <input type="password" name="password" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="inputLog"
-            placeholder="xxxxxxxx" required="required"><br>
+          <input type="password" name="password" class="inputLog" id="psw"
+            pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,}" class="inputLog" placeholder="xxxxxxxx"
+            required="required">
+          <br>
         </div>
       </div>
       <div class="ketLog">
-        <p class="ketLogdtl">Diisi dengan Password akun anda.</p>
+        <p class="ketLogdtl">
+          Diisi dengan Password akun anda.
+        </p>
       </div>
       <div class="buttonGridLogin1">
         <div>
           <input class="cbingatSaya" style="margin-top: 3px;" onclick="tampilkanpsw()" type="checkbox">
         </div>
         <div class="ingatSaya">
-          <label style="margin:0 0 0 5px;">Tampilkan Password</label>
+          <label style="margin:0 0 0 5px;">
+            Tampilkan Password
+          </label>
         </div>
       </div>
       <div class="buttonGridLogin2">
@@ -68,11 +87,17 @@
           <input class="cbingatSaya" type="checkbox">
         </div>
         <div class="ingatSaya">
-          <label>Ingat Saya</label>
+          <label>
+            Ingat Saya
+          </label>
         </div>
         <div>
           <label>
-            <p class="lupaPassword"><u>Lupa Password?</u></p>
+            <p class="lupaPassword">
+              <u>
+                Lupa Password?
+              </u>
+            </p>
           </label>
         </div>
       </div>
@@ -84,11 +109,15 @@
     </form>
     <div class="daftarBaruNav">
       <div>
-        <p class="daftarBaru1">Belum Punya Akun?</p>
+        <p class="daftarBaru1">
+          Belum Punya Akun?
+        </p>
       </div>
       <div class="daftarBaru2">
         <label>
-          <a href="daftar.html" class="daftarBaru2">Daftar Disini</a>
+          <a href="daftar.html" class="daftarBaru2">
+            Daftar Disini
+          </a>
         </label>
       </div>
     </div>
