@@ -475,17 +475,10 @@ body {
 }
 
 .loginNav {
-  width: auto;
-  margin: auto auto;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  align-items: center;
-}
-
-.loginLogo {
   text-align: center;
   height: 60px;
-  margin-top: 8px;
+  margin: 5px 0 15px 0;
+  align-items: center;
 }
 
 .titleNav {
@@ -720,7 +713,7 @@ body {
   width: 50%;
   background-color: white;
   margin-left: 290px;
-  margin-top: 10px;
+  margin-bottom: 50px;
   text-align: center;
   padding: 30px;
   border-radius: 40px;
