@@ -794,7 +794,6 @@ body {
   grid-template-columns: 40% 20%;
   grid-gap: 70px;
   margin-left: 7%;
-
 }
 
 .footer {
@@ -804,6 +803,13 @@ body {
   /* margin-left: -10px; */
   /* margin-right: -100px; */
   height: 450px;
+}
+
+.griddFooter {
+  margin: 0 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  align-items: center;
 }
 
 .footerIndex {
@@ -821,11 +827,9 @@ body {
 
 .ikutikami {
   box-sizing: border-box;
-  width: 35%;
+  width: 400px;
   padding: 10px;
   font-size: 11pt;
-  margin-bottom: 20px;
-  margin-top: -20px;
 }
 
 .ikuti {
