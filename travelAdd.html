@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    Mosque Tour | Penginapan
+  </title>
+  <link rel="shortcut icon" href="IMG/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <div class="bgContent">
+    <nav class="navContent">
+      <div class="logoMT">
+        <a href="index.html">
+          <img src="IMG/logo.png" weight="50" height="50" class="transisi">
+        </a>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li>
+            <a href="indexLogin.html" class="linkContent">
+              BERANDA
+            </a>
+          </li>
+          <li>
+            <a href="rekomendasi.html" class="linkContent">
+              REKOMENDASI
+            </a>
+          </li>
+          <li>
+            <a href="penginapan.html" id="activeContent" class="linkContent">
+              PENGINAPAN
+            </a>
+          </li>
+          <li>
+            <a href="travel.html" class="linkContent">
+              TRAVEL
+            </a>
+          </li>
+          <li>
+            <a href="tentangkami.html" class="linkContent">
+              TENTANG KAMI
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="akun">
+        <a href="logout.html">
+          <img src="IMG/Logo_User.png" weight="60" height="60">
+        </a>
+      </div>
+    </nav>
+    <br> <br> <br> <br> <br>
+    <div class="gridLocationP">
+      <div>
+        <a href="penginapan.html" class="location">
+          Penginapan
+        </a>
+      </div>
+      <div>
+        <a href="penginapanAdd.html" class="location" id="LocActive">
+          > Tambah Penginapan
+        </a>
+      </div>
+      <div>
+        <a href="" class="location">
+        </a>
+      </div>
+      <div>
+        <a href="" class="location">
+        </a>
+      </div>
+    </div>
+    <br>
+    <div class="IsiContent">
+      <br> <br>
+      <form>
+        <div class="inputan">
+          <button class="petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Nama Lengkap Penginapan Sesuai Dengan Aslinya');">
+            <span>
+              !
+            </span>
+          </button>
+          <font id="namaPenginapan">
+            Nama Penginapan
+            <font color="orange">
+              *
+            </font>
+          </font>
+          <br>
+          <input type="text" name="name" required="required" placeholder=" Nama Penginapan" id="namaPenginapa"
+            class="kotakInput1">
+          <br> <br>
+          <button class="petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Lokasi Lengkap Penginapan Sesuai Dengan Aslinya');">
+            <span>
+              !
+            </span>
+          </button>
+          <font id="lokasiPenginapan">
+            Lokasi Penginapan
+            <font color="orange">
+              *
+            </font>
+          </font>
+          <br>
+          <input type="text" name="lokasiPenginapan" required="required" placeholder=" Lokasi Penginapan"
+            id="lokasiPenginapan" class="kotakInput1">
+          <br> <br>
+          <button class="petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Nomor Telepon Penginapan Yang Terbaru dan Mudah Dihubungi');">
+            <span>
+              !
+            </span>
+          </button>
+          <font id="noTelepon">
+            Nomor Telepon
+            <font COLOR="orange">
+              *
+            </font>
+          </font>
+          <br>
+          <input type="number" name="noTelepon" required="required" placeholder=" Nomor Telepon" id="noTelepon"
+            class="kotakInput1">
+          <br> <br>
+          <button class="petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah Kategori Penginapan Sesuai Dengan Kondisi Aslinya');">
+            <span>
+              !
+            </span>
+          </button>
+          <font id="ketogoriPenginapan">
+            Ketogori Penginapan
+            <font color="orange">
+              *
+            </font>
+          </font>
+          <br>
+          <select name="ketogoriPenginapan" size="1" required="required" id="ketogoriPenginapan" class="kotakInput1">
+            <option disabled>
+              ~Pilih Kategori~
+            </option>
+            <option value="Hotel Bintang 5">
+              Hotel Bintang 5
+            </option>
+            <option value="Hotel Bintang 4">
+              Hotel Bintang 4
+            </option>
+            <option value="Hotel Bintang 3">
+              Hotel Bintang 3
+            </option>
+            <option value="Hotel Bintang 2">
+              Hotel Bintang 2
+            </option>
+            <option value="Hotel Bintang 1">
+              Hotel Bintang 1
+            </option>
+            <option value="Apartemen">
+              Apartemen
+            </option>
+            <option value="Rumah Kost">
+              Rumah Kost
+            </option>
+            <option value="Rumah Susun">
+              Rumah Susun
+            </option>
+            <option value="Lainnya">
+              Lainnya
+            </option>
+          </select>
+          <br> <br>
+          <button class="petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Deskripsi Lengkap Penginapan Yang Dapat Mewakili Kondisi Asli Penginapan');">
+            <span>
+              !
+            </span>
+          </button>
+          <font id="deskripsiPenginapan">
+            Deskripsi
+            <font color="orange">
+              *
+            </font>
+          </font>
+          <br>
+          <textarea name="deskripsiPenginapan" required="required" id="deskripsiPenginapan" cols="80" rows="8"
+            placeholder="Deskripsi Penginapan" class="kotakInput1">
+          </textarea>
+          <br> <br>
+          <button class="petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Biaya Terbaru Penyewaan Penginapan Per Malamnya');">
+            <span>
+              !
+            </span>
+          </button>
+          <font id="biayaPerMalam">
+            Biaya Per Malam
+            <font COLOR="orange">
+              *
+            </font>
+          </font>
+          <br>
+          <input type="number" name="biayaPerMalam" required="required" placeholder=" Biaya Per Malam"
+            id="biayaPerMalam" class="kotakInput1">
+          <br> <br>
+          <button class=" petunjuk"
+            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah File Video Penginapan Yang Terbaru, Lalu Silakan Di-Upload');">
+            <span>
+              !
+            </span>
+          </button>
+          <font id="videoPenginapan">
+            Upload Video Penginapan
+            <font color="orange">
+              *
+            </font>
+          </font>
+          <br>
+          <form method="post" action="" enctype="multipart/form-data" class="kotakInput1">
+            <input type="file" name="videoPenginapan" required="required" placeholder=" Upload Video Penginapan"
+              size="100" id="videoPenginapan">
+          </form>
+          <br> <br>
+          <div class="masuk">
+            <button type="submit" formaction="penginapan.html" class="masukButton">Tambah Penginapan
+            </button>
+          </div>
+      </form>
+    </div>
+    <br> <br>
+  </div>
+  <br> <br> <br>
+</body>
+
+</html>
