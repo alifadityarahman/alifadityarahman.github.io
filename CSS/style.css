@@ -800,6 +800,10 @@ body {
 .footer {
   background-color: #143D16;
   color: white;
+  width: 100%;
+  /* margin-left: -10px; */
+  /* margin-right: -100px; */
+  height: 450px;
 }
 
 .footerIndex {
