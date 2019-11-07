@@ -540,19 +540,43 @@ body {
   float: left;
   text-align: left;
   font-size: 12pt;
-  margin-top: 5px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: 5px 0 20px 9px;
+}
+
+.uploadFoto {
+  font-family: Montserrat Medium;
+  background-color: white;
+  border-radius: 20px;
+  height: 24px;
+  width: 268px;
+  margin-left: 15px;
+  margin-right: -20px;
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.uploadFoto:hover {
+  background-color: #16A085;
+  color: white;
+  cursor: pointer;
+}
+
+.uploadFoto:focus {
+  background-color: #16A085;
+  color: white;
 }
 
 .inputLog {
-  width: 93%;
-  padding: 10px;
+  width: 95%;
+  height: 35px;
+  text-align: center;
   font-family: Montserrat SemiBold;
   font-size: 12pt;
   border-radius: 25px;
-  border-color: white;
-  margin-left: 5px;
+  border-color: rgb(rgb(122, 122, 122));
+  text-align: left;
+  margin: 0 0 20px 15px;
 }
 
 .inputLog:hover {
@@ -561,7 +585,6 @@ body {
 
 .inputLog:focus {
   border-color: #16A085;
-  border-radius: 25px;
 }
 
 .gridakun,
@@ -577,7 +600,7 @@ body {
 .kelolaAkun {
   background-color: white;
   border-color: #16A085;
-  border-radius: 15px;
+  border-radius: 20px;
   color: #16A085;
   font-size: 12pt;
   height: 30%;
@@ -587,7 +610,6 @@ body {
 
 .kelolaAkun:hover {
   background-color: #16A085;
-  border-radius: 15px;
   color: white;
   cursor: pointer;
 }
@@ -595,16 +617,28 @@ body {
 .kelolaAkun:focus {
   background-color: #16A085;
   color: white;
+  cursor: pointer;
 }
 
 .kelolaAkunText {
   cursor: pointer;
 }
 
-.logout:hover {
+.masukButton1 {
+  font-family: Montserrat SemiBold;
+  border-radius: 20px;
+  height: 45px;
+  width: 180px;
+  background-color: white;
+  border-color: #16A085;
+  cursor: pointer;
+  color: #16A085;
+  font-size: 12pt;
+  margin-left: 3px;
+}
+
+.masukButton1:hover {
   background-color: #16A085;
-  border-radius: 15px;
-  padding: 10px;
   color: white;
 }
 
@@ -621,7 +655,6 @@ body {
 
 .buttonGridLogin1 {
   width: auto;
-  /* margin-left: 10px; */
   margin-top: 8px;
   display: grid;
   grid-template-columns: auto auto;
