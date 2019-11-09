@@ -308,6 +308,17 @@ body {
   align-items: center;
 }
 
+.gridLocationJM {
+  background-color: #16A085;
+  border-radius: 15px;
+  width: auto;
+  margin: 0 4% 0 4%;
+  display: grid;
+  padding: 4px;
+  grid-template-columns: 13.5% 13.5% 13.5% 20% 20% auto auto auto auto auto auto auto auto;
+  align-items: center;
+}
+
 .gridLocationP {
   background-color: #16A085;
   border-radius: 15px;
