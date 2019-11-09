@@ -304,7 +304,18 @@ body {
   margin: 0 4% 0 4%;
   display: grid;
   padding: 4px;
-  grid-template-columns: 13.5% 13.5% 13.5% 20% 20% auto auto auto auto auto auto auto auto;
+  grid-template-columns: 15% 13.5% 13.5% 20% 20% auto auto auto auto auto auto auto auto;
+  align-items: center;
+}
+
+.gridLocationS {
+  background-color: #16A085;
+  border-radius: 15px;
+  width: auto;
+  margin: 0 4% 0 4%;
+  display: grid;
+  padding: 4px;
+  grid-template-columns: 9% 13.5% 13.5% 20% 20% auto auto auto auto auto auto auto auto;
   align-items: center;
 }
 
@@ -315,7 +326,51 @@ body {
   margin: 0 4% 0 4%;
   display: grid;
   padding: 4px;
-  grid-template-columns: 9.3% 13% 7.8% 20% 20% auto auto auto auto auto auto auto auto;
+  grid-template-columns: 9% 14% 7.8% 20% 20% auto auto auto auto auto auto auto auto;
+  align-items: center;
+}
+
+.gridLocationNT {
+  background-color: #16A085;
+  border-radius: 15px;
+  width: auto;
+  margin: 0 4% 0 4%;
+  display: grid;
+  padding: 4px;
+  grid-template-columns: 9% 13.5% 13.5% 20% 20% auto auto auto auto auto auto auto auto;
+  align-items: center;
+}
+
+.gridLocationK {
+  background-color: #16A085;
+  border-radius: 15px;
+  width: auto;
+  margin: 0 4% 0 4%;
+  display: grid;
+  padding: 4px;
+  grid-template-columns: 9% 13.5% 13.5% 20% 20% auto auto auto auto auto auto auto auto;
+  align-items: center;
+}
+
+.gridLocationM {
+  background-color: #16A085;
+  border-radius: 15px;
+  width: auto;
+  margin: 0 4% 0 4%;
+  display: grid;
+  padding: 4px;
+  grid-template-columns: 9% 13.5% 13.5% 20% 20% auto auto auto auto auto auto auto auto;
+  align-items: center;
+}
+
+.gridLocationPapua {
+  background-color: #16A085;
+  border-radius: 15px;
+  width: auto;
+  margin: 0 4% 0 4%;
+  display: grid;
+  padding: 4px;
+  grid-template-columns: 9% 13.5% 13.5% 20% 20% auto auto auto auto auto auto auto auto;
   align-items: center;
 }
 
