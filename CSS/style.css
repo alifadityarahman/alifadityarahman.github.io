@@ -634,15 +634,15 @@ body {
 }
 
 .inputLog {
-  width: 95%;
-  height: 35px;
+  width: 80%;
+  padding: 10px;
   text-align: center;
   font-family: Montserrat SemiBold;
   font-size: 12pt;
   border-radius: 25px;
   border-color: rgb(rgb(122, 122, 122));
   text-align: left;
-  margin: 0 0 20px 15px;
+  margin: 0 0 20px 25px;
 }
 
 .inputLog:hover {
@@ -651,6 +651,24 @@ body {
 
 .inputLog:focus {
   border-color: #16A085;
+}
+
+.inputLog_LO {
+  width: 90%;
+  text-align: center;
+  font-family: Montserrat SemiBold;
+  font-size: 12pt;
+  border-radius: 25px;
+  border-color: rgb(rgb(122, 122, 122));
+  text-align: left;
+  margin: 0px 0px 0px 70px;
+}
+
+.nameLog_LO {
+  float: left;
+  text-align: left;
+  font-size: 12pt;
+  margin: 0px 0px 0px 40px;
 }
 
 .lupaPass {
