@@ -1267,9 +1267,9 @@ ul li:hover ul li {
   padding: 10px;
 }
 
-/* .footerli#active {
-  border-bottom: 3px solid white;
-} */
+.textWhite:hover {
+  border-right: 5px solid white;
+}
 
 .footerul {
   color: #688095;
