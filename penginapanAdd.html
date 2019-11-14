@@ -226,18 +226,6 @@
               placeholder=" Upload Video Penginapan" size="100" id="videoPenginapan"><br>
             <img id="box" style="width: 30%;height: 30%; padding: 5px; border: 2px solid white; border-radius: 5px;" />
           </form>
-          <script type="text/javascript">
-            var inputvideo = document.getElementById('inputvideo');
-            inputvideo.addEventListener('change', function (inputvideo) {
-              var box = document.getElementById("box");
-              var img = inputvideo.target.files;
-              var reader = new FileReader();
-              reader.onload = function (e) {
-                box.setAttribute('src', e.target.result);
-              }
-              reader.readAsDataURL(img[0]);
-            });
-          </script>
           <br> <br>
           <div class="masuk">
             <button type="submit" formaction="penginapan.html" class="masukButton">
@@ -385,3 +373,16 @@
 </body>
 
 </html>
+
+<script type="text/javascript">
+  var inputvideo = document.getElementById('inputvideo');
+  inputvideo.addEventListener('change', function (inputvideo) {
+    var box = document.getElementById("box");
+    var img = inputvideo.target.files;
+    var reader = new FileReader();
+    reader.onload = function (e) {
+      box.setAttribute('src', e.target.result);
+    }
+    reader.readAsDataURL(img[0]);
+  });
+</script>
