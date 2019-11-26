@@ -445,6 +445,17 @@ body {
   /* border-bottom: 3px solid white; */
 }
 
+.contentText {
+  color: #143D16;
+  font-size: 25px;
+}
+
+.star {
+  font-weight: 20px;
+  height: 20px;
+  margin-left: 60px;
+}
+
 .isi {
   color: white;
   width: auto;
@@ -1040,11 +1051,43 @@ body {
   margin-right: 5px;
 }
 
+.ikutikami {
+  box-sizing: border-box;
+  width: 400px;
+  padding: 10px;
+  font-size: 11pt;
+  margin: 0 0 0 0;
+  border-radius: 20px;
+}
+
+.ikutikami:hover,
+.ikutikami:focus {
+  border-color: #143D16;
+}
+
 .griddFooter2 {
   margin: 0 0 0 0;
   text-align: left;
   margin-left: 5px;
   margin-top: 1px;
+}
+
+.email {
+  height: 40px;
+  margin: 0 0 0 0;
+  border-radius: 20px;
+}
+
+.footerLogo {
+  margin-top: 10px;
+  width: 70%;
+}
+
+.footerText {
+  letter-spacing: 0.5px;
+  word-spacing: 5px;
+  color: white;
+  margin-top: -2px;
 }
 
 .footerIndex {
@@ -1058,13 +1101,6 @@ body {
   text-align: justify;
   font-size: 12pt;
   line-height: 25px;
-}
-
-.ikutikami {
-  box-sizing: border-box;
-  width: 400px;
-  padding: 10px;
-  font-size: 11pt;
 }
 
 .ikuti {
@@ -1276,6 +1312,7 @@ ul li:hover ul li {
   text-align: left;
   align-items: left;
   margin-left: 20px;
+  padding: 10px;
 }
 
 .footerli:hover {
