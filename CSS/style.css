@@ -125,7 +125,6 @@ body {
 .link:visited {
   font-size: 10pt;
   font-weight: bold;
-  /* text-align: right; */
   color: white;
   text-decoration: none;
   padding: 12px;
@@ -143,7 +142,6 @@ body {
 .linkContent:visited {
   font-size: 10pt;
   font-weight: bold;
-  /* text-align: right; */
   color: white;
   text-decoration: none;
   padding: 12px;
@@ -1062,7 +1060,7 @@ body {
 
 .ikutikami:hover,
 .ikutikami:focus {
-  border-color: #143D16;
+  border-color: rgb(24, 83, 27);
 }
 
 .griddFooter2 {
@@ -1088,6 +1086,42 @@ body {
   word-spacing: 5px;
   color: white;
   margin-top: -2px;
+}
+
+.gridLogoSosmed {
+  margin: 0 0;
+  display: grid;
+  grid-template-columns: 15% 15% 15%;
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 5px;
+  color: #143D16;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+.copyright1 {
+  color: #143D16;
+  text-decoration: none;
+}
+
+.copyright1:hover {
+  color: #fff;
+  line-height: 10px;
+  border-bottom: 2px solid white;
+}
+
+.logoSosmed {
+  width: 90%;
+  margin-top: -10px;
+}
+
+.logoSosmed:hover {
+  background: white;
+  border-radius: 20px;
 }
 
 .footerIndex {
@@ -1322,10 +1356,6 @@ ul li:hover ul li {
   padding: 10px;
 }
 
-.textWhite:hover {
-  border-right: 5px solid white;
-}
-
 .footerul {
   color: #688095;
   display: grid;
@@ -1336,6 +1366,10 @@ ul li:hover ul li {
 
 .textWhite {
   color: white;
+}
+
+.textWhite:hover {
+  border-right: 5px solid white;
 }
 
 /*halaman rekomendasi daerah*/
