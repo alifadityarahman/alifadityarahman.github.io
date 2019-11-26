@@ -295,6 +295,37 @@ body {
   border-radius: 20px;
 }
 
+/* ---------------- */
+
+/* .respon {
+  background-color: white;
+  color: black;
+}
+
+.kanan {
+  float: right;
+}
+
+nav .kanan>a {
+  display: inline-block;
+  text-align: center;
+  margin-top: 15px;
+  ;
+  padding: 10px;
+  ;
+  border-radius: 4px;
+  background-color: #2196F3;
+}
+
+nav .kanan>a:hover {
+  background-color: #fff;
+  color: #2196F3;
+  border: solid 2px #2196F3;
+  padding: 8px;
+} */
+
+/* ----------------- */
+
 .gridLocation {
   background-color: #16A085;
   border-radius: 15px;
