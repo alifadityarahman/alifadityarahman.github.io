@@ -1565,6 +1565,15 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
     line-height: 25px;
   }
 
+  .search {
+  box-sizing: border-box;
+  width: 400px;
+  padding: 10px;
+  font-size: 11pt;
+  margin: 0 0 0 0;
+  border-radius: 20px;
+}
+
   #active {
     border-bottom: 0px;
     border-right: 3px solid white;
