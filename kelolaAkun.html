@@ -44,72 +44,74 @@
           </label>
         </div>
         <div>
+          <img id="box" style="width: 30%;height: 30%; padding: 5px; border: 2px solid white; border-radius: 5px;" />
           <input type="file" class="uploadFoto" name="videoPenginapan" required="required"
-            placeholder=" Upload Video Penginapan" size="100" id=" videoPenginapan">
+            placeholder=" Upload Video Penginapan" size="100" id="inputfoto">
         </div>
       </div>
       <br>
-      <div class="inpLogNav">
-        <div class="nameLog">
-          <label>
-            Nama
-          </label>
+      <div class=" inpLogNav">
+          <div class="nameLog">
+            <label>
+              Nama
+            </label>
+          </div>
+          <div>
+            <input type="text" name="name" class="inputLog" placeholder="Muhammad Abdullah" required="required">
+          </div>
         </div>
-        <div>
-          <input type="text" name="name" class="inputLog" placeholder="Muhammad Abdullah" required="required">
+        <div class="inpLogNav">
+          <div class="nameLog">
+            <label>
+              Username
+            </label>
+          </div>
+          <div>
+            <input type="text" name="username" class="inputLog" placeholder="hamba_Allah" required="required">
+          </div>
         </div>
-      </div>
-      <div class="inpLogNav">
-        <div class="nameLog">
-          <label>
-            Username
-          </label>
+        <div class="inpLogNav">
+          <div class="nameLog">
+            <label>
+              Email
+            </label>
+          </div>
+          <div>
+            <input type="email" name="emailInp" class="inputLog" placeholder="mohabdiskndr@gmail.com"
+              required="required">
+          </div>
         </div>
-        <div>
-          <input type="text" name="username" class="inputLog" placeholder="hamba_Allah" required="required">
+        <div class="inpLogNav">
+          <div class="nameLog">
+            <label>
+              Password
+            </label>
+          </div>
+          <div>
+            <input type="password" name="password" class="inputLog" id="psw"
+              pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,}" class="inputLog" placeholder="xxxxxxxx"
+              required="required">
+            <br>
+          </div>
         </div>
-      </div>
-      <div class="inpLogNav">
-        <div class="nameLog">
-          <label>
-            Email
-          </label>
+        <div class="buttonGridLogin1">
+          <div>
+            <input class="cbingatSaya" onclick="tampilkanpsw()" type="checkbox">
+          </div>
+          <div class="ingatSaya">
+            <label style="margin:0 0 0 5px;">
+              Tampilkan Password
+            </label>
+          </div>
         </div>
-        <div>
-          <input type="email" name="emailInp" class="inputLog" placeholder="mohabdiskndr@gmail.com" required="required">
+        <br>
+        <div class="kelolaAkun">
+          <button type="submit" formaction="logout.html" class="kelolaAkun">
+            <label class="kelolaAkunText">
+              Simpan
+            </label>
+          </button>
         </div>
-      </div>
-      <div class="inpLogNav">
-        <div class="nameLog">
-          <label>
-            Password
-          </label>
-        </div>
-        <div>
-          <input type="password" name="password" class="inputLog" id="psw"
-            pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,}" class="inputLog" placeholder="xxxxxxxx"
-            required="required">
-          <br>
-        </div>
-      </div>
-      <div class="buttonGridLogin1">
-        <div>
-          <input class="cbingatSaya" onclick="tampilkanpsw()" type="checkbox">
-        </div>
-        <div class="ingatSaya">
-          <label style="margin:0 0 0 5px;">
-            Tampilkan Password
-          </label>
-        </div>
-      </div>
-      <br>
-      <div class="kelolaAkun">
-        <button type="submit" formaction="logout.html" class="kelolaAkun">
-          <label class="kelolaAkunText">
-            Simpan
-          </label>
-        </button>
-      </div>
     </form>
   </div>
   <div id="message">
@@ -137,68 +139,8 @@
       </b>
     </p>
   </div>
+  <script src="JS/formValidation.js"></script>
+  <script src="JS/photoReview.js"></script>
 </body>
 
 </html>
-
-<script>
-  var myInput = document.getElementById("psw");
-  var letter = document.getElementById("letter");
-  var capital = document.getElementById("capital");
-  var number = document.getElementById("number");
-  var length = document.getElementById("length");
-
-  myInput.onfocus = function () {
-    document.getElementById("message").style.display = "block";
-  }
-
-  myInput.onblur = function () {
-    document.getElementById("message").style.display = "none";
-  }
-
-  myInput.onkeyup = function () {
-    var lowerCaseLetters = /[a-z]/g;
-    if (myInput.value.match(lowerCaseLetters)) {
-      letter.classList.remove("invalid");
-      letter.classList.add("valid");
-    } else {
-      letter.classList.remove("valid");
-      letter.classList.add("invalid");
-    }
-
-    var upperCaseLetters = /[A-Z]/g;
-    if (myInput.value.match(upperCaseLetters)) {
-      capital.classList.remove("invalid");
-      capital.classList.add("valid");
-    } else {
-      capital.classList.remove("valid");
-      capital.classList.add("invalid");
-    }
-
-    var numbers = /[0-9]/g;
-    if (myInput.value.match(numbers)) {
-      number.classList.remove("invalid");
-      number.classList.add("valid");
-    } else {
-      number.classList.remove("valid");
-      number.classList.add("invalid");
-    }
-
-    if (myInput.value.length >= 8) {
-      length.classList.remove("invalid");
-      length.classList.add("valid");
-    } else {
-      length.classList.remove("valid");
-      length.classList.add("invalid");
-    }
-  }
-
-  function tampilkanpsw() {
-    var x = document.getElementById("psw");
-    if (x.type === "password") {
-      x.type = "text";
-    } else {
-      x.type = "password";
-    }
-  }
-</script>
