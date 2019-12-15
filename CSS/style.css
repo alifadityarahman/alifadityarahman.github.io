@@ -212,7 +212,7 @@ body {
 }
 
 /* .AddContent {
-  color: white;
+  color: white;location
   font-family: Aleo;
 }
 
@@ -226,10 +226,11 @@ body {
 .AddContent:active,
 .AddContent:visited {
   font-family: Aleo;
+  text-align: right;
   font-size: 12pt;
   margin: 0 0 0 0;
   color: white;
-  padding: 8px;
+  padding: 5px;
   text-decoration: none;
   /* font-size: 10pt; */
   /* font-weight: bold; */
@@ -240,7 +241,6 @@ body {
 .AddContent:hover {
   background: white;
   color: #16A085;
-  border-radius: 15px;
 }
 
 .SeeContent,
