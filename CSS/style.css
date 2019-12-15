@@ -184,6 +184,14 @@ body {
   border-radius: 33px;
 }
 
+.konten2 {
+  border-radius: 33px;
+  padding: 2%;
+  margin: 50px 50px 50px 50px;
+  color: white;
+  background-color: #16A085;
+}
+
 .judul {
   font-family: Montserrat SemiBold;
   font-size: 30pt;
@@ -443,7 +451,7 @@ nav .kanan>a:hover {
   margin: 0 4% 0 4%;
   display: grid;
   padding: 4px;
-  grid-template-columns: 10% 12.75% 6.5% 13% auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: 10% 14.75% 6.5% 13% auto auto auto auto auto auto auto auto auto;
   align-items: center;
 }
 
