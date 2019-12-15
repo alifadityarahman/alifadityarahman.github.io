@@ -712,8 +712,9 @@ nav .kanan>a:hover {
 }
 
 .lupaPass {
-  width: 97.5%;
-  height: 35px;
+  width: 92%;
+  padding: 10px;
+  height: 20px;
   text-align: center;
   font-family: Montserrat SemiBold;
   font-size: 12pt;
@@ -1597,13 +1598,13 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
   }
 
   .search {
-  box-sizing: border-box;
-  width: 400px;
-  padding: 10px;
-  font-size: 11pt;
-  margin: 0 0 0 0;
-  border-radius: 20px;
-}
+    box-sizing: border-box;
+    width: 400px;
+    padding: 10px;
+    font-size: 11pt;
+    margin: 0 0 0 0;
+    border-radius: 20px;
+  }
 
   #active {
     border-bottom: 0px;
