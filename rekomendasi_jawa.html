@@ -10,9 +10,22 @@
   </title>
   <link rel="shortcut icon" href="IMG/logoTitle.png" type="image/x-icon">
   <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" type="text/css" href="">
 </head>
 
 <body>
+  <script>
+        let $search = $('#search');
+    let $imgs = $('img')
+
+    $search.keyup(event => {
+      let value = $search.val().toLowerCase();
+      $imgs.show();
+      if (value !== 'img') {
+        $imgs.not('[title*="' + value + '"]').hide();
+      }
+    });
+  </script>
   <style>
     .isirekomendasi{
       width: 660px;
@@ -87,7 +100,8 @@
       </div>
       <br>
       <div class="search">
-        <input type="search" class="search" placeholder="Cari Disini" placeholder="IMG/cari.png" id="carirekom" style="box-sizing: border-box; width: 80%; margin: 0 -240% 0 0; padding: 3%; border-radius: 15px; float: right;">
+        <input id="search" />
+       <!--  <input type="search" class="search" placeholder="Cari Disini" placeholder="IMG/cari.png" id="search" style="box-sizing: border-box; width: 80%; margin: 0 -240% 0 0; padding: 3%; border-radius: 15px; float: right;"> -->
       </div>
     </div>
     <br><br><br><br>
@@ -108,25 +122,25 @@
       <div class="isirekomendasi">
         <div data-filter="Masjid Istiqlal" data-search="Masjid Istiqlal" class="rekom">
           <a href="KetIstiqlal.html">
-            <img src="IMG/masjid-istiqlal.png">
+            <img src="IMG/masjid-istiqlal.png" title="Masjid Istiqlal" />
             <span color="black"><b>Masjid Iqtiqlal</b></span>
           </a>
         </div>
         <div data-search="Masjid Al-Akbar" class="rekom">
           <a href="KetAlAkbar.html">
-            <img src="IMG/AlAkbarSBY.png">
+            <img src="IMG/AlAkbarSBY.png" title="Masjid Al Akbar" />
             <span color="black"><b>Masjid Al-Akbar</b></span>
           </a>
         </div>
         <div data-search="Masjid Agung Surabaya" class="rekom">
           <a href="KetMasjidAgungSMRG.html">
-            <img src="IMG/MasjidAgungJateng.jpg">
+            <img src="IMG/MasjidAgungJateng.jpg" title="Masjid Agung Surabaya" />
             <span color="black"><b>Masjid Agung Surabaya</b></span>
           </a>
         </div>
         <div data-search="Masjid Trans Studio" class="rekom">
           <a href="KetMasjidTrans.html">
-            <img src="IMG/TSMBandung.jpg">
+            <img src="IMG/TSMBandung.jpg" title="Masjid Trans Studio" />
             <span color="black"><b>Masjid Trans Studio</b></span>
           </a>
         </div>
@@ -308,7 +322,7 @@
       Kritik dan Masukan
     </a>
   </center>
-  <script src="JS/script.js"></script>
+  
 </body>
 
 </html>

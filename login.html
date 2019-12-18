@@ -25,12 +25,26 @@
           MASUK
         </p>
       </div>
-      <div class="cancel">
-        <a href="index.html">
-          <img height="40px" src="IMG/cancel.png">
-        </a>
+     <!--  <div class="cancel"> -->
+        <!-- <a href="index.html"> -->
+          <a onclick="tombol()"><img id="tombol" height="40px" src="IMG/cancel.png"></a>
+           <!-- </div> -->
+    <div id="box" class="isinya">
+    <div class="konten">
+      <div class="head">
+        <a onclick="close()"><span class="close">×</span></a>
+        <br><center><h2>Peringatan</h2></center>
       </div>
-    </div>
+
+      <div class="main">
+        <p><center>Anda Yakin data yang anda isikan telah sesuai dan dapat dipertanggung jawabkan ?</center></p>
+
+      </div>
+  </div>
+        <!-- </a> -->
+      </div>
+   
+</div>
     <div class="bodyWelcome">
       <p>
         Selamat Datang!
@@ -125,7 +139,34 @@
       </div>
     </div>
   </div>
-  <script src="JS/formValidation.js"></script>
+  <a onclick="tombol()"><button id="tombol" class="tombol">DAPATKAN INFO</button></a>
+  <div id="box" class="isinya">
+    <div class="konten">
+      <div class="head">
+        <a onclick="close()"><span class="close">×</span></a>
+        <br><center><h2>Peringatan</h2></center>
+      </div>
+
+      <div class="main">
+        <p><center>Anda Yakin data yang anda isikan telah sesuai dan dapat dipertanggung jawabkan ?</center></p>
+
+      </div>
+  </div>
+        <!-- </a> -->
+      </div>
+  <!-- <script src="JS/formValidation.js"> -->
+    
+
 </body>
 
 </html>
+<script>
+    var login = document.getElementById('box');
+    var mpLink = document.getElementById("tombol");
+    var close = document.getElementsByClassName("close")[0];
+    mpLink.onclick = function(tombol) {
+    login.style.display = "block";
+  }
+  close.onclick = function(close) {
+    login.style.display = "none";
+  </script>

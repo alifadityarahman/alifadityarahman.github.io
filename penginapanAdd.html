@@ -81,12 +81,20 @@
       <br> <br>
       <form>
         <div class="inputan">
-          <button class="petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Nama Lengkap Penginapan Sesuai Dengan Aslinya');">
-            <span>
-              !
-            </span>
-          </button>
+          <a onclick="tombol()"><button id="tombol" class="tombol">!</button></a>
+          <div id="box" class="isinya">
+            <div class="konten">
+              <div class="head">
+                <a onclick="close()"><span class="close">×</span></a>
+                <br><center><h2>Peringatan</h2></center>
+              </div>
+
+      <div class="main">
+        <p><center>Isi nama penginapan dengan benar</center></p>
+
+      </div>
+  </div>
+</div>
           <font id="namaPenginapan">
             Nama Penginapan
             <font color="orange">
@@ -94,15 +102,23 @@
             </font>
           </font>
           <br>
-          <input type="text" name="name" required="required" placeholder=" Nama Penginapan" id="namaPenginapa"
+          <input type="text" name="name" required="required" placeholder=" Nama Penginapan" id="namaPenginapan"
             class="kotakInput1">
           <br> <br>
-          <button class="petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Lokasi Lengkap Penginapan Sesuai Dengan Aslinya');">
-            <span>
-              !
-            </span>
-          </button>
+           <a onclick="tombol()"><button id="tombol" class="tombol">!</button></a>
+          <div id="box" class="isinya">
+            <div class="konten">
+              <div class="head">
+                <a onclick="close()"><span class="close">×</span></a>
+                <br><center><h2>Peringatan</h2></center>
+              </div>
+
+      <div class="main">
+        <p><center>Isi nama penginapan dengan benar</center></p>
+
+      </div>
+  </div>
+</div>
           <font id="lokasiPenginapan">
             Lokasi Penginapan
             <font color="orange">
@@ -113,12 +129,20 @@
           <input type="text" name="lokasiPenginapan" required="required" placeholder=" Lokasi Penginapan"
             id="lokasiPenginapan" class="kotakInput1">
           <br> <br>
-          <button class="petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Nomor Telepon Penginapan Yang Terbaru dan Mudah Dihubungi');">
-            <span>
-              !
-            </span>
-          </button>
+          <a onclick="tombol()"><button id="tombol" class="tombol">!</button></a>
+          <div id="box" class="isinya">
+            <div class="konten">
+              <div class="head">
+                <a onclick="close()"><span class="close">×</span></a>
+                <br><center><h2>Peringatan</h2></center>
+              </div>
+
+      <div class="main">
+        <p><center>Masukkan Nomor Telepon penginapan yang sesuai dan dibisa dihubungi</center></p>
+
+      </div>
+  </div>
+</div>
           <font id="noTelepon">
             Nomor Telepon
             <font COLOR="orange">
@@ -232,6 +256,20 @@
               Tambah Penginapan
             </button>
           </div>
+          <a onclick="tombol()"><button id="tombol" class="tombol">DAPATKAN INFO</button></a>
+
+  <div id="box" class="isinya">
+    <div class="konten">
+      <div class="head">
+        <a onclick="close()"><span class="close">×</span></a>
+        <br><center><h2>Peringatan</h2></center>
+      </div>
+
+      <div class="main">
+        <p><center>Anda Yakin data yang anda isikan telah sesuai dan dapat dipertanggung jawabkan ?</center></p>
+
+      </div>
+  </div>
       </form>
     </div>
     <br> <br>
@@ -396,7 +434,17 @@
       Kritik dan Masukan
     </a>
   </center>
-  <script src="JS/photoReview.js"></script>
+  <script type="text/javascript">
+  var login = document.getElementById('box');
+  var mpLink = document.getElementById("tombol");
+  var close = document.getElementsByClassName("close")[0];
+  mpLink.onclick = function(tombol) {
+    login.style.display = "block";
+  }
+  close.onclick = function(close) {
+    login.style.display = "none";
+  }
+</script>
 </body>
 
 </html>

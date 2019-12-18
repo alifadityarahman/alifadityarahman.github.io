@@ -53,9 +53,144 @@
         </ul>
       </div>
       <div class="akun">
-        <a href="login.html">
-          <img src="IMG/tombollogin.png" weight="60" height="60">
+        <a onclick="tombol()">
+          <img src="IMG/tombollogin.png" id="tombol" weight="60" height="60">
         </a>
+        <div id="box" class="isinya">
+    <div class="konten">
+      <div class="head">
+        <a onclick="close()"><span class="close">×</span></a>
+        <br><center><h2>Peringatan</h2></center>
+      </div>
+
+      <div class="main">
+        <div class="loginNav">
+    <a href="index.html">
+      <img src="IMG/logo.png" class="loginNav">
+    </a>
+  </div>
+  <div class="kotakLogin">
+    <div class="titleNav">
+      <div class="title">
+        <p class="title">
+          MASUK
+        </p>
+      </div>
+      <div class="cancel">
+        <a href="index.html">
+          <img height="40px" src="IMG/cancel.png">
+        </a>
+      </div>
+    </div>
+    <div class="bodyWelcome">
+      <p>
+        Selamat Datang!
+        <br>
+        Untuk Melenjutkan perjalanan, Silahkan Masuk ke Akun Anda
+      </p>
+    </div>
+    <form action="">
+      <div class="inpLogNav">
+        <div class="nameLog">
+          <label>
+            Email
+          </label>
+        </div>
+        <div>
+          <input type="email" name="emailInp" class="inputLog" placeholder="abcdefg@gmail.com" required="required">
+        </div>
+      </div>
+      <div class="ketLog">
+        <p class="ketLogdtl">
+          Diisi dengan email anda yang telah terdaftar
+        </p>
+        <br>
+      </div>
+      <div class="inpLogNav">
+        <div class="nameLog">
+          <label>
+            Password
+          </label>
+        </div>
+        <div>
+          <input type="password" name="password" class="inputLog" id="psw"
+            pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,}" class="inputLog" placeholder="xxxxxxxx"
+            required="required">
+        </div>
+      </div>
+      <div class="ketLog">
+        <p class="ketLogdtl">
+          Diisi dengan Password akun anda.
+        </p>
+        <br>
+      </div>
+      <div class="buttonGridLogin1">
+        <div>
+          <input class="cbingatSaya" style="margin-top: 3px;" onclick="tampilkanpsw()" type="checkbox">
+        </div>
+        <div class="ingatSaya">
+          <label style="margin:0 0 0 5px;">
+            Tampilkan Password
+          </label>
+        </div>
+      </div>
+      <div class="buttonGridLogin2">
+        <div class="cbingatSaya">
+          <input class="cbingatSaya" type="checkbox">
+        </div>
+        <div class="ingatSaya">
+          <label>
+            Ingat Saya
+          </label>
+        </div>
+        <div>
+          <label>
+            <p class="lupaPassword">
+              <a href="lupaPassword.html" style="color: black;">
+                <u>
+                  Lupa Password?
+                </u>
+              </a>
+            </p>
+          </label>
+        </div>
+      </div>
+      <div class="masuk">
+        <button type="submit" formaction="indexLogin.html" class="masukButton">
+          <img height="70px" src="IMG/tombol-masuk.png">
+        </button>
+      </div>
+    </form>
+    <div class="daftarBaruNav">
+      <div>
+        <p class="daftarBaru1">
+          Belum Punya Akun?
+        </p>
+      </div>
+      <div class="daftarBaru2">
+        <label>
+          <a href="daftar.html" class="daftarBaru2">
+            Daftar Disini
+          </a>
+        </label>
+      </div>
+    </div>
+  </div>
+  <script src="JS/formValidation.js"></script>
+      </div>
+  </div>
+
+<script type="text/javascript">
+  var login = document.getElementById('box');
+var mpLink = document.getElementById("tombol");
+var close = document.getElementsByClassName("close")[0];
+mpLink.onclick = function(tombol) {
+    login.style.display = "block";
+}
+close.onclick = function(close) {
+    login.style.display = "none";
+}
+</script>
       </div>
     </nav>
     <footer class="footerIndex">

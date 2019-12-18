@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>a</title>
+</head>
+<body>
+	<form action="" method="post">
+      <fieldset>
+        <input type="text" id="filter" name="search" placeholder="Search(16pt)">
+      </fieldset>
+    </form>
+    <ul class="photos">
+
+      <li><a class="gallery" href="photos/fullsize/01.jpg"><img src="photos/01.jpg" alt="Hay Bales" title="I love hay bales. Took this snap on a drive through the countryside past some straw fields."></a></li>
+
+     <li><a class="gallery" href="photos/fullsize/02.jpg"><img src="photos/02.jpg" alt="Lake" title="The lake was so calm today. We had a great view of the snow on the mountains from here."></a></li>
+
+     <li><a class="gallery" href="photos/fullsize/03.jpg"><img src="photos/03.jpg" alt="Canyon" title="I hiked to the top of the mountain and got this picture of the canyon and trees below."></a></li>
+	<script type="text/javascript">
+		var $captions = $(function(){
+			$('img').each(function() {
+				$(this).attr('title')});
+		});
+		var $photos = $(".gallery");
+		$("#filter").keyup(searchPics() {
+			if ($(this).str.toLowerCase().indexOf($captions) < 0){
+				$(this "img").hide();
+			} else {
+				$("img").show();
+			}
+		});
+	</script>
+</body>
+</html>

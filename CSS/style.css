@@ -16,7 +16,7 @@ body {
   border-radius: 20px;
 }
 
-.petunjuk {
+/*.petunjuk {
   border-radius: 100px;
   border: 1px solid grey;
   width: 4%;
@@ -28,7 +28,7 @@ body {
   color: white;
   background-color: grey;
   margin-left: 0%;
-}
+}*/
 
 .kotakInput1 {
   border-radius: 8px;
@@ -1625,6 +1625,84 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
     margin-top: 90%;
   }
 }
+
+.isinya{            /*bagian belakang*/
+    display: none;
+    position: fixed;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.konten {                 
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.main{        /*isi formnya*/
+  padding: 5px 6px;
+  color: #16A085;
+}
+
+.head {       /*head formnya*/
+  font-size: 12px;
+  padding: 1px 16px;
+  color: white;
+  background: #16A085;
+}
+
+.close {      /*tombol close*/
+  margin-top: 7px;
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover, .close:focus {
+  color: #16A085;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tombol{                    /*button login*/
+  border-radius: 100px;
+  border: 1px solid grey;
+  width: 4%;
+  padding: 5px;
+  font-family: Montserrat SemiBold;
+  font-size: 19pt;
+  margin-bottom: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: grey;
+  margin-left: 0%;
+    /*background: #5C92F0;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 15%;
+    margin-left: 63%;
+    margin-right: 20%*/
+}
+
+#tombol:hover {
+  background-color: #CBAEA2;
+  opacity: 1;
+ 
+}
+
 
 
 /* @media screen and (max-width: 400px) {
