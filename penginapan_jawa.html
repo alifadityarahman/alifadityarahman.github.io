@@ -6,13 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>
-    Mosque Tour | Penginapan
+    Mosque Tour | Rekomendasi
   </title>
   <link rel="shortcut icon" href="IMG/logoTitle.png" type="image/x-icon">
   <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
+  <style>
+    .isirekomendasi {
+      width: 660px;
+      margin: 10px auto;
+      clear: both;
+    }
+
+    .rekom {
+      float: left;
+      width: 30%;
+      padding: 5px;
+      height: 150px;
+      border-radius: 15%;
+      text-align: center;
+    }
+
+    .rekom img {
+      width: 100%
+    }
+  </style>
   <div class="bgContent">
     <nav class="navContent">
       <div class="logoMT">
@@ -28,12 +48,12 @@
             </a>
           </li>
           <li>
-            <a href="rekomendasi.html" class="linkContent">
+            <a href="rekomendasi.html" id="activeContent" class="linkContent">
               REKOMENDASI
             </a>
           </li>
           <li>
-            <a href="penginapan.html" id="activeContent" class="linkContent">
+            <a href="penginapan.html" class="linkContent">
               PENGINAPAN
             </a>
           </li>
@@ -51,124 +71,87 @@
       </div>
       <div class="akun">
         <a href="logout.html">
-          <img src="IMG/Logo_User.png" weight="60" height="60">
+          <img src="IMG/Logo_User.png" onclick="showLogin()" weight="60" height="60">
         </a>
       </div>
     </nav>
-    <br> <br> <br> <br> <br>
-    <div class="gridLocationP">
+    <br><br><br><br><br>
+    <div class="gridLocationJM">
       <div>
-        <a href="" class="location" id="LocActive">
-          Penginapan
+        <a href="rekomendasi.html" class="location">
+          Rekomendasi
         </a>
       </div>
       <div>
-        <a href="" class="location">
+        <a href="rekomendasi_jawa.html" class="location" id="LocActive">
+          > Jawa dan Madura
         </a>
       </div>
-      <div>
-        <a href="" class="location">
-        </a>
-      </div>
-      <div>
-        <a href="" class="location">
-        </a>
-      </div>
-      <div>
-        <a href="" class="location">
-        </a>
-      </div>
-      <div>
-        <a href="" class="location">
-        </a>
-      </div>
-      <div>
-        <a href="" class="location">
-        </a>
-      </div>
-      <div>
-        <a href="" class="location">
-        </a>
-      </div>
-      <div>
-        <a href="" class="location">
-        </a>
-      </div>
-      <div>
-        <a href="" class="location">
-        </a>
-      </div>
-      <div>
-        <a href="" class="location">
-        </a>
-      </div>
-      <div>
-        <a href="" class="location">
-        </a>
-      </div>
-      <div>
-        <a href="penginapanAdd.html" class="location">
-          Tambah Penginapan
-        </a>
+      <br>
+      <div class="search">
+        <input type="search" class="search" placeholder="Cari Disini" placeholder="IMG/cari.png" id="carirekom"
+          style="box-sizing: border-box; width: 80%; margin: 0 -240% 0 0; padding: 3%; border-radius: 15px; float: right;">
       </div>
     </div>
-    <br>
-
-    <div>
-      <p class="contentText">
-        <img src="IMG/star.png" class="star">
-        PENGINAPAN
-      </p>
-      <center>
-        <p class="contentText">
-          Klik salah satu wilayah peta di bawah untuk mendapatkan rekomendasi penginapan
-        </p>
-      </center>
-      <br><br><br>
-    </div>
-    <div class="peta_atas">
-      <div>
-        <a href="penginapan_sumatera.html">
-          <img class="peta_detailSm" src="IMG/Sumatera.png">
-        </a>
-      </div>
-      <div>
-        <a href="penginapan_kalimantan.html">
-          <img class="peta_detailK" src="IMG/Kalimantan.png">
-        </a>
-      </div>
-      <div>
-        <a href="penginapan_sulawesi.html">
-          <img class="peta_detailSl" src="IMG/Sulawesi.png">
-        </a>
-      </div>
-      <div>
-        <a href="penginapan_maluku.html">
-          <img class="peta_detailM" src="IMG/Maluku.png">
-        </a>
-      </div>
-      <div>
-        <a href="penginapan_papua.html">
-          <img class="peta_detailP" src="IMG/Papua.png">
-        </a>
-      </div>
-    </div>
-    <div class="peta_bawah">
-      <div>
-        <a href="penginapan_jawa.html">
-          <img class="peta_detailJM" src="IMG/Jawa.png">
-        </a>
-      </div>
-      <div>
-        <a href="penginapan_nusatenggara.html">
-          <img class="peta_detailNT" src="IMG/nusatenggara.png">
-        </a>
-      </div>
-    </div>
-
-    <br><br>
+    <br><br><br><br>
   </div>
+  <p style="color: #143D16; font-size: 25px;">
+    <img src="IMG/star.png" style="font-weight: 20px; height: 20px; margin-left: 60px;">
+    REKOMENDASI
+  </p>
+  <center>
+    <p style="color: #143D16; font-size: 20px;">
+      DAFTAR REKOMENDASI WILAYAH JAWA DAN MADURA
+    </p>
+    <img src="IMG/Jawa.png">
+    <br><br>
+  </center>
+  <br>
+  <div class="isirekomendasi">
+    <div data-filter="Masjid Istiqlal" data-search="Masjid Istiqlal" class="rekom">
+      <a href="KetIstiqlal.html">
+        <img src="IMG/masjid-istiqlal.png">
+        <span color="black"><b>Masjid Iqtiqlal</b></span>
+      </a>
+    </div>
+    <div data-search="Masjid Al-Akbar" class="rekom">
+      <a href="KetAlAkbar.html">
+        <img src="IMG/AlAkbarSBY.png">
+        <span color="black"><b>Masjid Al-Akbar</b></span>
+      </a>
+    </div>
+    <div data-search="Masjid Agung Surabaya" class="rekom">
+      <a href="KetMasjidAgungSMRG.html">
+        <img src="IMG/MasjidAgungJateng.jpg">
+        <span color="black"><b>Masjid Agung Surabaya</b></span>
+      </a>
+    </div>
+    <div data-search="Masjid Trans Studio" class="rekom">
+      <a href="KetMasjidTrans.html">
+        <img src="IMG/TSMBandung.jpg">
+        <span color="black"><b>Masjid Trans Studio</b></span>
+      </a>
+    </div>
+  </div>
+  <br><br>
+  <!-- <a href="KetIstiqlal.html"> -->
+  <!--   <img src="IMG/masjid-istiqlal.png" style="height:150px; border-radius: 15px;">
+        <span color="black"><b>Masjid Iqtiqlal</b></span>
+      </a>
+      <a href="KetAlAkbar.html">
+        <img src="IMG/AlAkbarSBY.png" style="height:150px; border-radius: 15px;">
+      </a>
+      <a href="KetMasjidAgungSMRG.html">
+        <img src="IMG/MasjidAgungJateng.jpg" style="height:150px; border-radius: 15px;">
+      </a>
+      <a href="KetMasjidTrans.html">
+        <img src="IMG/TSMBandung.jpg" style="height:150px; border-radius: 15px;">
+      </a> -->
+  <!-- </center> -->
+  </div>
+  <br><br><br><br><br><br><br><br><br>
   <footer>
+    <br><br><br><br><br><br><br><br><br>
     <div class="footer">
       <center>
         <br>
@@ -327,6 +310,7 @@
       Kritik dan Masukan
     </a>
   </center>
+  <script src="JS/script.js"></script>
 </body>
 
 </html>
