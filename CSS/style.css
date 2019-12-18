@@ -1570,9 +1570,9 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
     display: none;
   }
 
-  .burger-menu {
-    display: contents;
-  }
+  /* .burger-menu {
+    display: block;
+  } */
 
   .navslide {
     text-align: center;
@@ -1586,7 +1586,6 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
   .footerIndex {
     margin-top: 44%;
   }
-
 
   .judul {
     color: white;
