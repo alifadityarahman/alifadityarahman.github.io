@@ -81,18 +81,25 @@
       <br> <br>
       <form>
         <div class="inputan">
-          <a onclick="tombol()"><button id="tombol" class="petunjuk">!</button></a>
+          <a onclick="tombol()"><button id="tombol" class="petunjuk">PETUNJUK</button></a>
           <div id="box" class="isinyamodal">
             <div class="kontenmodal">
               <div class="headmodal">
                 <a onclick="close()"><span class="close">×</span></a>
-                <br><center><h2>Peringatan</h2></center>
+                <br>
+                <center>
+                  <h2>Pemberitahuan</h2>
+                </center>
               </div>
               <div class="mainmodal">
-                <p><center>Isikan Nama Penginapan dengan benar!</center></p>
+                <p>
+                  <center>Isikan Semua Data Penginapan Dengan Benar Sesuai Kondisi Aslinya <br><br> Semua Data Harus
+                    Dapat Dipertanggung Jawabkan</center>
+                </p>
               </div>
             </div>
           </div>
+          <br><br>
           <font id="namaPenginapan">
             Nama Penginapan
             <font color="orange">
@@ -103,12 +110,9 @@
           <input type="text" name="name" required="required" placeholder=" Nama Penginapan" id="namaPenginapa"
             class="kotakInput1">
           <br> <br>
-          <button class="petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Lokasi Lengkap Penginapan Sesuai Dengan Aslinya');">
-            <span>
-              !
-            </span>
-          </button>
+
+          <!-- onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Lokasi Lengkap Penginapan Sesuai Dengan Aslinya');"> -->
+
           <font id="lokasiPenginapan">
             Lokasi Penginapan
             <font color="orange">
@@ -119,12 +123,10 @@
           <input type="text" name="lokasiPenginapan" required="required" placeholder=" Lokasi Penginapan"
             id="lokasiPenginapan" class="kotakInput1">
           <br> <br>
-          <button class="petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Nomor Telepon Penginapan Yang Terbaru dan Mudah Dihubungi');">
-            <span>
-              !
-            </span>
-          </button>
+
+          <!-- onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Nomor Telepon Penginapan Yang Terbaru dan Mudah Dihubungi');"> -->
+
+
           <font id="noTelepon">
             Nomor Telepon
             <font COLOR="orange">
@@ -135,12 +137,9 @@
           <input type="number" name="noTelepon" required="required" placeholder=" Nomor Telepon" id="noTelepon"
             class="kotakInput1">
           <br> <br>
-          <button class="petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah Kategori Penginapan Sesuai Dengan Kondisi Aslinya');">
-            <span>
-              !
-            </span>
-          </button>
+
+          <!-- onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah Kategori Penginapan Sesuai Dengan Kondisi Aslinya');"> -->
+
           <font id="ketogoriPenginapan">
             Ketogori Penginapan
             <font color="orange">
@@ -181,12 +180,9 @@
             </option>
           </select>
           <br> <br>
-          <button class="petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Deskripsi Lengkap Penginapan Yang Dapat Mewakili Kondisi Asli Penginapan');">
-            <span>
-              !
-            </span>
-          </button>
+
+          <!-- onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Deskripsi Lengkap Penginapan Yang Dapat Mewakili Kondisi Asli Penginapan');"> -->
+
           <font id="deskripsiPenginapan">
             Deskripsi
             <font color="orange">
@@ -198,12 +194,9 @@
             placeholder="Deskripsi Penginapan" class="kotakInput1">
           </textarea>
           <br> <br>
-          <button class="petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Biaya Terbaru Penyewaan Penginapan Per Malamnya');">
-            <span>
-              !
-            </span>
-          </button>
+
+          <!-- onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Biaya Terbaru Penyewaan Penginapan Per Malamnya');"> -->
+
           <font id="biayaPerMalam">
             Biaya Per Malam
             <font COLOR="orange">
@@ -214,12 +207,9 @@
           <input type="number" name="biayaPerMalam" required="required" placeholder=" Biaya Per Malam"
             id="biayaPerMalam" class="kotakInput1">
           <br> <br>
-          <button class=" petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah File Video Penginapan Yang Terbaru, Lalu Silakan Di-Upload');">
-            <span>
-              !
-            </span>
-          </button>
+
+          <!-- onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah File Video Penginapan Yang Terbaru, Lalu Silakan Di-Upload');"> -->
+
           <font id="videoPenginapan">
             Upload Video Penginapan
             <font color="orange">
@@ -402,16 +392,7 @@
       Kritik dan Masukan
     </a>
   </center>
-  <script>
-    var login = document.getElementById('box');
-    var mpLink = document.getElementById("tombol");
-    var close = document.getElementsByClassName("close")[0];
-    mpLink.onclick = function(tombol) {
-    login.style.display = "block";}
-    close.onclick = function(close) {
-    login.style.display = "none";
-  }
-</script>
+  <script src="JS/Modal.js"></script>
 </body>
 
 </html>
