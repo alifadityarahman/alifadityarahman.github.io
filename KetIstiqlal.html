@@ -10,6 +10,7 @@
   </title>
   <link rel="shortcut icon" href="IMG/logoTitle.png" type="image/x-icon">
   <link rel="stylesheet" href="CSS/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -105,30 +106,11 @@
         adalah Prof. Dr. Nasaruddin Umar, M.A. dan Ketua Badan Pelaksana Pengelola Masjid Istiqlal sekarang adalah
         Laksma (Purn) H. Asep Saefuddin.
         <br><br>
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        Pembangunan masjid ini diprakarsai oleh Presiden Republik Indonesia saat itu, Ir. Soekarno. Peletakan batu
-        pertama sebagai tanda dimulainya pembangunan Masjid Istiqlal dilakukan oleh Ir. Soekarno pada tanggal 24
-        Agustus 1951. Arsitek Masjid Istiqlal adalah Frederich Silaban, seorang Kristen Protestan.
-        <br><br>
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        Masjid ini memiliki gaya arsitektur modern dengan dinding dan lantai berlapis marmer, dihiasi ornamen
-        geometrik dari baja antikarat. Bangunan utama masjid ini terdiri dari lima lantai dan satu lantai dasar.
-        Bangunan utama itu dimahkotai satu kubah besar berdiameter 45 meter yang ditopang 12 tiang besar. Menara
-        tunggal setinggi total 96,66 meter menjulang di sudut Selatan selasar masjid. Masjid ini mampu menampung lebih
-        dari 200.000 jamaah.
-        <br><br>
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        Selain digunakan sebagai aktivitas ibadah umat Islam, masjid ini juga digunakan sebagai kantor berbagai
-        organisasi Islam di Indonesia, aktivitas sosial, dan kegiatan umum. Masjid ini juga menjadi salah satu daya
-        tarik wisata yang terkenal di Jakarta. Kebanyakan wisatawan yang berkunjung umumnya wisatawan domestik di
-        samping sebagian wisatawan asing yang beragama Islam. Masyarakat non-Muslim juga dapat berkunjung ke masjid
-        ini setelah sebelumnya mendapat pembekalan informasi mengenai Islam dan Masjid Istiqlal, meskipun bagian yang
-        boleh dikunjungi kaum non-Muslim terbatas dan harus didampingi pemandu.
-        <br><br>
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        Pada tiap hari besar Islam seperti Ramadhan, Idul Fitri, Idul Adha, Tahun Baru Hijriyah, Maulid Nabi Muhammad
-        serta Isra dan Mi'raj, Presiden Republik Indonesia selalu mengadakan kegiatan keagamaan di masjid ini yang
-        disiarkan secara langsung melalui televisi nasional (TVRI) dan sebagian televisi swasta.
+
+        <div id="shwmr">
+        </div>
+        <button type="button" onclick="loadDoc()" id="btn">Tampilkan Lebih</button>
+
       </p>
       <p style="margin: 0 0 0 5%; font-size: 20pt; font-weight: bold;">
         Nama Masjid
@@ -325,6 +307,29 @@
       Kritik dan Masukan
     </a>
   </center>
+  <script>
+    var search = document.getElementById('cari');
+    var link = document.getElementById("loop");
+    link.onclick = function () {
+      search.style.display = "inline-block";
+    }
+
+
+    $("#btn").click(function () {
+      $("#btn").hide();
+    });
+
+    function loadDoc() {
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("shwmr").innerHTML = this.responseText;
+        }
+      };
+      xmlhttp.open("GET", "lanjutan.txt", true);
+      xmlhttp.send();
+    }
+  </script>
 </body>
 
 </html>
