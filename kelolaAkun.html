@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="JS/jquery-3.4.1.js"></script>
   <title>
     Mosque Tour | Kelola Akun
   </title>
@@ -44,74 +45,72 @@
           </label>
         </div>
         <div>
-          <img id="box" style="width: 30%;height: 30%; padding: 5px; border: 2px solid white; border-radius: 5px;" />
-          <input type="file" class="uploadFoto" name="videoPenginapan" required="required"
-            placeholder=" Upload Video Penginapan" size="100" id="inputfoto">
+          <img id="preview" width="300" style="display:none" />
+          <input type="file" class="uploadFoto" id="gambar_pro">
         </div>
       </div>
       <br>
       <div class=" inpLogNav">
-          <div class="nameLog">
-            <label>
-              Nama
-            </label>
-          </div>
-          <div>
-            <input type="text" name="name" class="inputLog" placeholder="Muhammad Abdullah" required="required">
-          </div>
+        <div class="nameLog">
+          <label>
+            Nama
+          </label>
         </div>
-        <div class="inpLogNav">
-          <div class="nameLog">
-            <label>
-              Username
-            </label>
-          </div>
-          <div>
-            <input type="text" name="username" class="inputLog" placeholder="hamba_Allah" required="required">
-          </div>
+        <div>
+          <input type="text" name="name" class="inputLog" placeholder="Muhammad Abdullah" required="required">
         </div>
-        <div class="inpLogNav">
-          <div class="nameLog">
-            <label>
-              Email
-            </label>
-          </div>
-          <div>
-            <input type="email" name="emailInp" class="inputLog" placeholder="mohabdiskndr@gmail.com"
-              required="required">
-          </div>
+      </div>
+      <div class="inpLogNav">
+        <div class="nameLog">
+          <label>
+            Username
+          </label>
         </div>
-        <div class="inpLogNav">
-          <div class="nameLog">
-            <label>
-              Password
-            </label>
-          </div>
-          <div>
-            <input type="password" name="password" class="inputLog" id="psw"
-              pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,}" class="inputLog" placeholder="xxxxxxxx"
-              required="required">
-            <br>
-          </div>
+        <div>
+          <input type="text" name="username" class="inputLog" placeholder="hamba_Allah" required="required">
         </div>
-        <div class="buttonGridLogin1">
-          <div>
-            <input class="cbingatSaya" onclick="tampilkanpsw()" type="checkbox">
-          </div>
-          <div class="ingatSaya">
-            <label style="margin:0 0 0 5px;">
-              Tampilkan Password
-            </label>
-          </div>
+      </div>
+      <div class="inpLogNav">
+        <div class="nameLog">
+          <label>
+            Email
+          </label>
         </div>
-        <br>
-        <div class="kelolaAkun">
-          <button type="submit" formaction="logout.html" class="kelolaAkun">
-            <label class="kelolaAkunText">
-              Simpan
-            </label>
-          </button>
+        <div>
+          <input type="email" name="emailInp" class="inputLog" placeholder="mohabdiskndr@gmail.com" required="required">
         </div>
+      </div>
+      <div class="inpLogNav">
+        <div class="nameLog">
+          <label>
+            Password
+          </label>
+        </div>
+        <div>
+          <input type="password" name="password" class="inputLog" id="psw"
+            pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,}" class="inputLog" placeholder="xxxxxxxx"
+            required="required">
+          <br>
+        </div>
+      </div>
+      <div class="buttonGridLogin1">
+        <div>
+          <input class="cbingatSaya" onclick="tampilkanpsw()" type="checkbox">
+        </div>
+        <div class="ingatSaya">
+          <label style="margin:0 0 0 5px;">
+            Tampilkan Password
+          </label>
+        </div>
+      </div>
+      <br>
+      <div class="kelolaAkun">
+        <button type="submit" formaction="logout.html" class="kelolaAkun">
+          <label class="kelolaAkunText">
+            Simpan
+          </label>
+        </button>
+      </div>
     </form>
   </div>
   <div id="message">
