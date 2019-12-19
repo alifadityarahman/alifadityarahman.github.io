@@ -20,27 +20,27 @@ window.onload = function () {
             type: "doughnut",
             showInLegend: true,
             dataPoints: [{
-                    y: 53.37,
+                    y: 853,
                     legendText: "Jawa",
                     indexLabel: "Jawa"
                 },
                 {
-                    y: 35.0,
+                    y: 235,
                     legendText: "Kalimantan",
                     indexLabel: "Kalimantan"
                 },
                 {
-                    y: 7,
-                    legendText: "Maluku",
-                    indexLabel: "Maluku"
+                    y: 270,
+                    legendText: "Sumatera",
+                    indexLabel: "Sumatera"
                 },
                 {
-                    y: 2,
+                    y: 221,
                     legendText: "Nusa Tenggara Barat",
                     indexLabel: "Nusa Tenggara Barat"
                 },
                 {
-                    y: 5,
+                    y: 101,
                     legendText: "Others 5%",
                     indexLabel: "Lain-lain"
                 }
