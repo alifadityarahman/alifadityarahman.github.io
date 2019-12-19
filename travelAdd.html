@@ -81,12 +81,26 @@
       <br> <br>
       <form>
         <div class="inputan">
-          <button class="petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Nama Lengkap Travel Sesuai Dengan Aslinya');">
-            <span>
-              !
-            </span>
-          </button>
+          <a onclick="tombol()"><button id="tombol" class="petunjuk">PETUNJUK</button></a>
+          <div id="box" class="isinyamodal">
+            <div class="kontenmodal">
+              <div class="headmodal">
+                <a onclick="close()"><span class="close">×</span></a>
+                <br>
+                <center>
+                  <h2>Pemberitahuan</h2>
+                </center>
+              </div>
+              <div class="mainmodal">
+                <p>
+                  <center>Isikan Semua Data Travel Dengan Benar Sesuai Kondisi Aslinya <br><br> Semua Data Harus
+                    Dapat Dipertanggung Jawabkan</center>
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <br><br>
           <font id="namaTravel">
             Nama Travel
             <font color="orange">
@@ -97,12 +111,7 @@
           <input type="text" name="name" required="required" placeholder=" Nama Travel" id="namaPenginapa"
             class="kotakInput1">
           <br> <br>
-          <button class="petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Lokasi Lengkap Travel Sesuai Dengan Aslinya');">
-            <span>
-              !
-            </span>
-          </button>
+
           <font id="lokasiTravel">
             Lokasi Travel
             <font color="orange">
@@ -113,12 +122,7 @@
           <input type="text" name="lokasiTravel" required="required" placeholder=" Lokasi Travel" id="lokasiTravel"
             class="kotakInput1">
           <br> <br>
-          <button class="petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Nomor Telepon Travel Yang Terbaru dan Mudah Dihubungi');">
-            <span>
-              !
-            </span>
-          </button>
+
           <font id="noTelepon">
             Nomor Telepon
             <font COLOR="orange">
@@ -129,12 +133,7 @@
           <input type="number" name="noTelepon" required="required" placeholder=" Nomor Telepon" id="noTelepon"
             class="kotakInput1">
           <br> <br>
-          <button class="petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah Kategori Travel Sesuai Dengan Kondisi Aslinya');">
-            <span>
-              !
-            </span>
-          </button>
+
           <font id="ketogoriTravel">
             Ketogori Travel
             <font color="orange">
@@ -175,12 +174,7 @@
             </option>
           </select>
           <br> <br>
-          <button class="petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Deskripsi Lengkap Travel Yang Dapat Mewakili Kondisi Asli Travel');">
-            <span>
-              !
-            </span>
-          </button>
+
           <font id="deskripsiTravel">
             Deskripsi
             <font color="orange">
@@ -192,12 +186,7 @@
             placeholder="Deskripsi Travel" class="kotakInput1">
           </textarea>
           <br> <br>
-          <button class="petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Masukkanlah Biaya Terbaru Penyewaan Travel Per Malamnya');">
-            <span>
-              !
-            </span>
-          </button>
+
           <font id="biayaPerKm">
             Biaya Per Km
             <font COLOR="orange">
@@ -208,12 +197,7 @@
           <input type="number" name="biayaPerKm" required="required" placeholder=" Biaya Per Km" id="biayaPerKm"
             class="kotakInput1">
           <br> <br>
-          <button class=" petunjuk"
-            onclick="alert('---------------------------------- Petunjuk ---------------------------------- Pilihlah File Video Travel Yang Terbaru, Lalu Silakan Di-Upload');">
-            <span>
-              !
-            </span>
-          </button>
+
           <font id="videoTravel">
             Upload Video Travel
             <font color="orange">
@@ -227,7 +211,7 @@
           </form>
           <br> <br>
           <div class="masuk">
-            <button type="submit" formaction="Travel.html" class="masukButton">
+            <button type="submit" formaction="detailTravel.html" class="masukButton">
               Tambah Travel
             </button>
           </div>
@@ -395,6 +379,7 @@
       Kritik dan Masukan
     </a>
   </center>
+  <script src="JS/Modal.js"></script>
 </body>
 
 </html>
