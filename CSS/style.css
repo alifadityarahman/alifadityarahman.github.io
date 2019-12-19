@@ -1552,22 +1552,23 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
   } */
 }
 
-
 @media screen and (max-width: 800px) {
 
   ul li {
     text-align: right;
-    margin-left: 200px;
-    /* display: none; */
+    margin-left: 5px;
+    display: inline-block;
   }
 
   .logoMT {
-    margin-left: 30px;
+    margin-left: 10px;
     margin-top: 10px;
   }
 
   .akun {
     display: none;
+    text-align: center;
+    margin-left: -80px;
   }
 
   /* .burger-menu {
@@ -1577,10 +1578,9 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
   .navslide {
     text-align: center;
     width: auto;
-    margin-top: 0.9%;
     margin-left: 4.25%;
     display: grid;
-    grid-template-columns: 5% 5% 5% 5% 5%;
+    grid-template-columns: 8% 8% 8% 8% 8%;
   }
 
   .footerIndex {
@@ -1591,16 +1591,22 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
     color: white;
     font-family: Montserrat SemiBold;
     text-align: left;
-    font-size: 25pt;
-    scroll-margin-left: 3px;
+    font-size: 18pt;
+    scroll-margin-left: 10px;
   }
+
+  .konten {
+    margin-top: -20px;
+  }
+
 
   .keterangan {
     color: white;
-    margin: 0 4% 0 7%;
+    /* margin-top: -100px; */
+    /* margin: 0 4% 0 7%; */
     font-family: Montserrat SemiBold;
     text-align: justify;
-    font-size: 12pt;
+    font-size: 8pt;
     line-height: 25px;
   }
 
@@ -1622,6 +1628,8 @@ box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.5)
     border-right: 0px solid rgba(22, 160, 132, 0);
   }
 }
+
+
 
 @media screen and (max-width: 425px) {
 
